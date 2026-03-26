@@ -83,7 +83,7 @@ export default function Home() {
             <a href="#brands" className="text-sm hover:text-primary transition">Brands</a>
             <a href="#contact" className="text-sm hover:text-primary transition">Contact</a>
           </div>
-          <Button className="btn-primary text-sm">Buy Now</Button>
+          <Button className="btn-primary text-sm">Get Started</Button>
         </div>
       </nav>
 
