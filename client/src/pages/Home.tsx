@@ -14,50 +14,50 @@ import { useEffect, useState } from "react";
 const ATD_LOGO = "https://d2xsxph8kpxj0f.cloudfront.net/310519663451688190/FU7Ur5az9t2KrqkVbzouk3/atd-logo-geometric-DeNTt8WipdkNfx6Kipa6Xz.webp";
 
 const BRAND_LOGOS = [
-  { name: "Apple", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1200px-Apple_logo_black.svg.png" },
-  { name: "Sony", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Sony_logo.svg/1200px-Sony_logo.svg.png" },
-  { name: "Samsung", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/1200px-Samsung_Logo.svg.png" },
-  { name: "Bose", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Bose_logo.svg/1200px-Bose_logo.svg.png" },
-  { name: "Logitech", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Logitech_logo.svg/1200px-Logitech_logo.svg.png" },
-  { name: "Anker", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Anker_logo.svg/1200px-Anker_logo.svg.png" },
-  { name: "SharkNinja", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/SharkNinja_Operating_LLC_logo.svg/1200px-SharkNinja_Operating_LLC_logo.svg.png" },
-  { name: "Hamilton Beach", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Hamilton_Beach_logo.svg/1200px-Hamilton_Beach_logo.svg.png" },
-  { name: "Crock-Pot", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Crock-Pot_logo.svg/1200px-Crock-Pot_logo.svg.png" },
-  { name: "Oster", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Oster_logo.svg/1200px-Oster_logo.svg.png" },
-  { name: "Stanley", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Stanley_logo.svg/1200px-Stanley_logo.svg.png" },
-  { name: "Owala", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Owala_logo.svg/1200px-Owala_logo.svg.png" },
-  { name: "Keurig", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Keurig_logo.svg/1200px-Keurig_logo.svg.png" },
-  { name: "KitchenAid", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/KitchenAid_logo.svg/1200px-KitchenAid_logo.svg.png" },
-  { name: "Cuisinart", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Cuisinart_logo.svg/1200px-Cuisinart_logo.svg.png" },
-  { name: "Dyson", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Dyson_logo.svg/1200px-Dyson_logo.svg.png" },
-  { name: "Instant Pot", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Instant_Pot_logo.svg/1200px-Instant_Pot_logo.svg.png" },
-  { name: "Pyrex", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Pyrex_logo.svg/1200px-Pyrex_logo.svg.png" },
-  { name: "OXO", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/OXO_logo.svg/1200px-OXO_logo.svg.png" },
-  { name: "Revlon", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Revlon_logo.svg/1200px-Revlon_logo.svg.png" },
-  { name: "Maybelline", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Maybelline_logo.svg/1200px-Maybelline_logo.svg.png" },
-  { name: "L'Oréal", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Loreal_logo.svg/1200px-Loreal_logo.svg.png" },
-  { name: "Neutrogena", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Neutrogena_logo.svg/1200px-Neutrogena_logo.svg.png" },
-  { name: "Dove", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Dove_logo.svg/1200px-Dove_logo.svg.png" },
-  { name: "Gillette", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Gillette_logo.svg/1200px-Gillette_logo.svg.png" },
-  { name: "Crest", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Crest_logo.svg/1200px-Crest_logo.svg.png" },
-  { name: "Oral-B", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Oral-B_logo.svg/1200px-Oral-B_logo.svg.png" },
-  { name: "Aveeno", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Aveeno_logo.svg/1200px-Aveeno_logo.svg.png" },
-  { name: "Olay", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Olay_logo.svg/1200px-Olay_logo.svg.png" },
-  { name: "Tide", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Tide_logo.svg/1200px-Tide_logo.svg.png" },
-  { name: "Bounty", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Bounty_logo.svg/1200px-Bounty_logo.svg.png" },
-  { name: "Lysol", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Lysol_logo.svg/1200px-Lysol_logo.svg.png" },
-  { name: "Clorox", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Clorox_logo.svg/1200px-Clorox_logo.svg.png" },
-  { name: "Advil", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Advil_logo.svg/1200px-Advil_logo.svg.png" },
-  { name: "Tylenol", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Tylenol_logo.svg/1200px-Tylenol_logo.svg.png" },
-  { name: "Zyrtec", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Zyrtec_logo.svg/1200px-Zyrtec_logo.svg.png" },
-  { name: "Nature Made", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Nature_Made_logo.svg/1200px-Nature_Made_logo.svg.png" },
-  { name: "Optimum Nutrition", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Optimum_Nutrition_logo.svg/1200px-Optimum_Nutrition_logo.svg.png" },
-  { name: "Vitafusion", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Vitafusion_logo.svg/1200px-Vitafusion_logo.svg.png" },
-  { name: "LEGO", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Lego_logo.svg/1200px-Lego_logo.svg.png" },
-  { name: "Hasbro", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Hasbro_logo.svg/1200px-Hasbro_logo.svg.png" },
-  { name: "Mattel", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Mattel_logo.svg/1200px-Mattel_logo.svg.png" },
-  { name: "Nerf", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Nerf_logo.svg/1200px-Nerf_logo.svg.png" },
-  { name: "Barbie", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Barbie_logo.svg/1200px-Barbie_logo.svg.png" },
+  { name: "Apple", logo: "https://logo.clearbit.com/apple.com" },
+  { name: "Sony", logo: "https://logo.clearbit.com/sony.com" },
+  { name: "Samsung", logo: "https://logo.clearbit.com/samsung.com" },
+  { name: "Bose", logo: "https://logo.clearbit.com/bose.com" },
+  { name: "Logitech", logo: "https://logo.clearbit.com/logitech.com" },
+  { name: "Anker", logo: "https://logo.clearbit.com/anker.com" },
+  { name: "SharkNinja", logo: "https://logo.clearbit.com/sharkninja.com" },
+  { name: "Hamilton Beach", logo: "https://logo.clearbit.com/hamiltonbeach.com" },
+  { name: "Crock-Pot", logo: "https://logo.clearbit.com/crockpot.com" },
+  { name: "Oster", logo: "https://logo.clearbit.com/oster.com" },
+  { name: "Stanley", logo: "https://logo.clearbit.com/stanley1913.com" },
+  { name: "Owala", logo: "https://logo.clearbit.com/owalalife.com" },
+  { name: "Keurig", logo: "https://logo.clearbit.com/keurig.com" },
+  { name: "KitchenAid", logo: "https://logo.clearbit.com/kitchenaid.com" },
+  { name: "Cuisinart", logo: "https://logo.clearbit.com/cuisinart.com" },
+  { name: "Dyson", logo: "https://logo.clearbit.com/dyson.com" },
+  { name: "Instant Pot", logo: "https://logo.clearbit.com/instantpot.com" },
+  { name: "Pyrex", logo: "https://logo.clearbit.com/pyrex.com" },
+  { name: "OXO", logo: "https://logo.clearbit.com/oxo.com" },
+  { name: "Revlon", logo: "https://logo.clearbit.com/revlon.com" },
+  { name: "Maybelline", logo: "https://logo.clearbit.com/maybelline.com" },
+  { name: "L'Oréal", logo: "https://logo.clearbit.com/loreal.com" },
+  { name: "Neutrogena", logo: "https://logo.clearbit.com/neutrogena.com" },
+  { name: "Dove", logo: "https://logo.clearbit.com/dove.com" },
+  { name: "Gillette", logo: "https://logo.clearbit.com/gillette.com" },
+  { name: "Crest", logo: "https://logo.clearbit.com/crest.com" },
+  { name: "Oral-B", logo: "https://logo.clearbit.com/oralb.com" },
+  { name: "Aveeno", logo: "https://logo.clearbit.com/aveeno.com" },
+  { name: "Olay", logo: "https://logo.clearbit.com/olay.com" },
+  { name: "Tide", logo: "https://logo.clearbit.com/tide.com" },
+  { name: "Bounty", logo: "https://logo.clearbit.com/bountytowels.com" },
+  { name: "Lysol", logo: "https://logo.clearbit.com/lysol.com" },
+  { name: "Clorox", logo: "https://logo.clearbit.com/clorox.com" },
+  { name: "Advil", logo: "https://logo.clearbit.com/advil.com" },
+  { name: "Tylenol", logo: "https://logo.clearbit.com/tylenol.com" },
+  { name: "Zyrtec", logo: "https://logo.clearbit.com/zyrtec.com" },
+  { name: "Nature Made", logo: "https://logo.clearbit.com/naturemade.com" },
+  { name: "Optimum Nutrition", logo: "https://logo.clearbit.com/optimumnutrition.com" },
+  { name: "Vitafusion", logo: "https://logo.clearbit.com/vitafusion.com" },
+  { name: "LEGO", logo: "https://logo.clearbit.com/lego.com" },
+  { name: "Hasbro", logo: "https://logo.clearbit.com/hasbro.com" },
+  { name: "Mattel", logo: "https://logo.clearbit.com/mattel.com" },
+  { name: "Nerf", logo: "https://logo.clearbit.com/nerf.com" },
+  { name: "Barbie", logo: "https://logo.clearbit.com/barbie.com" },
 ];
 
 export default function Home() {
@@ -83,7 +83,7 @@ export default function Home() {
             <a href="#brands" className="text-sm hover:text-primary transition">Brands</a>
             <a href="#contact" className="text-sm hover:text-primary transition">Contact</a>
           </div>
-          <Button className="btn-primary text-sm">Get Started</Button>
+          <Button className="btn-primary text-sm">Buy Now</Button>
         </div>
       </nav>
 
@@ -94,7 +94,7 @@ export default function Home() {
             {/* Left: Content */}
             <div className="space-y-6">
               <div className="inline-block px-4 py-2 bg-blue-50 rounded-full border border-primary/20">
-                <span className="text-sm font-medium text-primary">Trusted by 500+ Suppliers</span>
+                <span className="text-sm font-medium text-primary">Trusted by 50+ Suppliers</span>
               </div>
               <h1 className="text-5xl md:text-6xl font-bold leading-tight">
                 Scale Your Brand with <span className="text-primary">Apex Trade</span>
@@ -204,7 +204,16 @@ export default function Home() {
                   alt={brand.name}
                   className="w-full h-full object-contain p-2 filter grayscale hover:grayscale-0 transition-all duration-300"
                   title={brand.name}
+                  onError={(e) => {
+                    const target = e.currentTarget;
+                    target.style.display = "none";
+                    const fallback = target.nextElementSibling as HTMLElement;
+                    if (fallback) fallback.style.display = "flex";
+                  }}
                 />
+                <span className="hidden items-center justify-center text-center text-xs font-semibold text-muted-foreground px-1 leading-tight">
+                  {brand.name}
+                </span>
               </div>
             ))}
           </div>
