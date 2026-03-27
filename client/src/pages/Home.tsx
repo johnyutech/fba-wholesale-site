@@ -21,7 +21,7 @@ const BRAND_LOGOS = [
   { name: "JorVet", file: "JorVet.png" },
   { name: "Kinder's", file: "Kinder's_ido1nfhgF3_0.png" },
   { name: "Mrs. Meyer's", file: "Mrs.Meyers.png" },
-  { name: "NutriSource", file: "Nutrisource.png" },
+  { name: "NutriSource", file: "Nutrisource.jpeg" },
   { name: "Rishi Tea", file: "RishiTea.jpeg" },
   { name: "Rustic Bakery", file: "RusticBakery.png" },
   { name: "Shark Wheel", file: "SharkWheel.png" },
