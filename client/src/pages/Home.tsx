@@ -14,53 +14,21 @@ import { useLocation } from "wouter";
 // Apex Trade Distribution Logo URL
 const ATD_LOGO = "https://d2xsxph8kpxj0f.cloudfront.net/310519663451688190/FU7Ur5az9t2KrqkVbzouk3/atd-logo-geometric-DeNTt8WipdkNfx6Kipa6Xz.webp";
 
-const LOGO_TOKEN = import.meta.env.VITE_LOGO_DEV_TOKEN || "";
-
 const BRAND_LOGOS = [
-  { name: "Apple", domain: "apple.com" },
-  { name: "Sony", domain: "sony.com" },
-  { name: "Samsung", domain: "samsung.com" },
-  { name: "Bose", domain: "bose.com" },
-  { name: "Logitech", domain: "logitech.com" },
-  { name: "Anker", domain: "anker.com" },
-  { name: "SharkNinja", domain: "sharkninja.com" },
-  { name: "Hamilton Beach", domain: "hamiltonbeach.com" },
-  { name: "Crock-Pot", domain: "crockpot.com" },
-  { name: "Oster", domain: "oster.com" },
-  { name: "Stanley", domain: "stanley1913.com" },
-  { name: "Owala", domain: "owalalife.com" },
-  { name: "Keurig", domain: "keurig.com" },
-  { name: "KitchenAid", domain: "kitchenaid.com" },
-  { name: "Cuisinart", domain: "cuisinart.com" },
-  { name: "Dyson", domain: "dyson.com" },
-  { name: "Instant Pot", domain: "instantpot.com" },
-  { name: "Pyrex", domain: "pyrex.com" },
-  { name: "OXO", domain: "oxo.com" },
-  { name: "Revlon", domain: "revlon.com" },
-  { name: "Maybelline", domain: "maybelline.com" },
-  { name: "L'Oréal", domain: "loreal.com" },
-  { name: "Neutrogena", domain: "neutrogena.com" },
-  { name: "Dove", domain: "dove.com" },
-  { name: "Gillette", domain: "gillette.com" },
-  { name: "Crest", domain: "crest.com" },
-  { name: "Oral-B", domain: "oralb.com" },
-  { name: "Aveeno", domain: "aveeno.com" },
-  { name: "Olay", domain: "olay.com" },
-  { name: "Tide", domain: "tide.com" },
-  { name: "Bounty", domain: "bountytowels.com" },
-  { name: "Lysol", domain: "lysol.com" },
-  { name: "Clorox", domain: "clorox.com" },
-  { name: "Advil", domain: "advil.com" },
-  { name: "Tylenol", domain: "tylenol.com" },
-  { name: "Zyrtec", domain: "zyrtec.com" },
-  { name: "Nature Made", domain: "naturemade.com" },
-  { name: "Optimum Nutrition", domain: "optimumnutrition.com" },
-  { name: "Vitafusion", domain: "vitafusion.com" },
-  { name: "LEGO", domain: "lego.com" },
-  { name: "Hasbro", domain: "hasbro.com" },
-  { name: "Mattel", domain: "mattel.com" },
-  { name: "Nerf", domain: "nerf.com" },
-  { name: "Barbie", domain: "barbie.com" },
+  { name: "Bob's Red Mill", file: "BobsRedMillLogo.png" },
+  { name: "Dr. Bronner's", file: "Dr_Bronner_idWZsJ5JNk_0.png" },
+  { name: "Frontier Co-op", file: "FrontierCoOp.png" },
+  { name: "JorVet", file: "JorVet.png" },
+  { name: "Kinder's", file: "Kinder's_ido1nfhgF3_0.png" },
+  { name: "Mrs. Meyer's", file: "Mrs.Meyers.png" },
+  { name: "NutriSource", file: "Nutrisource.png" },
+  { name: "Rishi Tea", file: "RishiTea.jpeg" },
+  { name: "Rustic Bakery", file: "RusticBakery.png" },
+  { name: "Shark Wheel", file: "SharkWheel.png" },
+  { name: "Simple Mills", file: "SimpleMills.png" },
+  { name: "Stella & Chewy's", file: "StellaChewys.png" },
+  { name: "Swig Life", file: "SwigLife.png" },
+  { name: "Vita Coco", file: "VitaCoco.png" },
 ];
 
 export default function Home() {
@@ -110,7 +78,7 @@ export default function Home() {
                 <Button className="btn-primary flex items-center gap-2" onClick={() => navigate("/contact")}>
                   Start Partnership <ArrowRight className="w-4 h-4" />
                 </Button>
-                <Button className="btn-secondary">Learn More</Button>
+                <Button className="btn-secondary" onClick={() => navigate("/faq")}>Learn More</Button>
               </div>
             </div>
 
@@ -131,7 +99,7 @@ export default function Home() {
 
         {/* Diagonal divider */}
         <svg
-          className="absolute bottom-0 left-0 right-0 w-full h-32 text-card"
+          className="absolute bottom-0 left-0 right-0 w-full h-32 text-card pointer-events-none"
           viewBox="0 0 1200 120"
           preserveAspectRatio="none"
           style={{ marginBottom: "-1px" }}
@@ -190,34 +158,25 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Our Brand Partners</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              We work with 50+ leading brands across electronics, home, beauty, and consumer goods categories.
+              We work with leading brands across food & beverage, health, home goods, and specialty categories.
             </p>
           </div>
 
-          <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-4">
             {BRAND_LOGOS.map((brand, i) => (
               <div
                 key={i}
-                className="aspect-square bg-card rounded-lg p-4 flex items-center justify-center hover:bg-primary/5 transition-all duration-300 glow-on-hover cursor-pointer border border-border hover:border-primary/30 hover:shadow-md"
+                className="bg-white rounded-xl border border-border p-5 flex items-center justify-center hover:border-primary/30 hover:shadow-md transition-all duration-300"
                 style={{
                   animation: `fadeInUp 0.6s cubic-bezier(0.4, 0, 0.2, 1) ${i * 0.05}s both`
                 }}
+                title={brand.name}
               >
                 <img
-                  src={`https://img.logo.dev/${brand.domain}?token=${LOGO_TOKEN}`}
+                  src={`/brandlogos/${brand.file}`}
                   alt={brand.name}
-                  className="w-full h-full object-contain p-2 filter grayscale hover:grayscale-0 transition-all duration-300"
-                  title={brand.name}
-                  onError={(e) => {
-                    const target = e.currentTarget;
-                    target.style.display = "none";
-                    const fallback = target.nextElementSibling as HTMLElement;
-                    if (fallback) fallback.style.display = "flex";
-                  }}
+                  className="w-full h-14 object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
                 />
-                <span className="hidden items-center justify-center text-center text-xs font-semibold text-muted-foreground px-1 leading-tight">
-                  {brand.name}
-                </span>
               </div>
             ))}
           </div>
@@ -243,7 +202,7 @@ export default function Home() {
               <Button className="bg-white text-primary hover:bg-gray-100 px-8 py-3 font-semibold" onClick={() => navigate("/contact")}>
                 Start Your Partnership
               </Button>
-              <Button className="border-2 border-white text-white hover:bg-white/10 px-8 py-3 font-semibold">
+              <Button className="border-2 border-white text-white hover:bg-white/10 px-8 py-3 font-semibold" onClick={() => navigate("/contact")}>
                 Schedule a Call
               </Button>
             </div>
@@ -273,17 +232,17 @@ export default function Home() {
             <div>
               <h4 className="font-semibold mb-4">Resources</h4>
               <ul className="space-y-2 text-sm text-white/60">
-                <li><a href="#" className="hover:text-white transition">Documentation</a></li>
-                <li><a href="#" className="hover:text-white transition">Support</a></li>
-                <li><a href="#" className="hover:text-white transition">FAQ</a></li>
+                <li><a href="#" className="hover:text-white transition" onClick={(e) => { e.preventDefault(); navigate("/documentation"); }}>Documentation</a></li>
+                <li><a href="#" className="hover:text-white transition" onClick={(e) => { e.preventDefault(); navigate("/support"); }}>Support</a></li>
+                <li><a href="#" className="hover:text-white transition" onClick={(e) => { e.preventDefault(); navigate("/faq"); }}>FAQ</a></li>
               </ul>
             </div>
             <div>
               <h4 className="font-semibold mb-4">Legal</h4>
               <ul className="space-y-2 text-sm text-white/60">
-                <li><a href="#" className="hover:text-white transition">Privacy</a></li>
-                <li><a href="#" className="hover:text-white transition">Terms</a></li>
-                <li><a href="#" className="hover:text-white transition">Contact</a></li>
+                <li><a href="#" className="hover:text-white transition" onClick={(e) => { e.preventDefault(); navigate("/privacy"); }}>Privacy</a></li>
+                <li><a href="#" className="hover:text-white transition" onClick={(e) => { e.preventDefault(); navigate("/terms"); }}>Terms</a></li>
+                <li><a href="#" className="hover:text-white transition" onClick={(e) => { e.preventDefault(); navigate("/contact"); }}>Contact</a></li>
               </ul>
             </div>
           </div>
