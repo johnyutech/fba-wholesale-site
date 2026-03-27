@@ -22,7 +22,7 @@ const BRAND_LOGOS = [
   { name: "Kinder's", file: "Kinder's_ido1nfhgF3_0.png" },
   { name: "Mrs. Meyer's", file: "Mrs.Meyers.png" },
   { name: "NutriSource", file: "Nutrisource.jpeg" },
-  { name: "Rishi Tea", file: "RishiTea.jpeg" },
+  { name: "Garden of Life", file: "GardenOfLife.jpeg" },
   { name: "Rustic Bakery", file: "RusticBakery.png" },
   { name: "Shark Wheel", file: "SharkWheel.png" },
   { name: "Simple Mills", file: "SimpleMills.png" },
