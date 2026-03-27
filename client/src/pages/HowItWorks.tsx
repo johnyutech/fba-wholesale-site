@@ -1,0 +1,205 @@
+import { useLocation } from "wouter";
+import { ArrowLeft, MessageSquare, FileText, Truck, BarChart2, TrendingUp, ShieldCheck } from "lucide-react";
+import { Button } from "@/components/ui/button";
+
+const ATD_LOGO =
+  "https://d2xsxph8kpxj0f.cloudfront.net/310519663451688190/FU7Ur5az9t2KrqkVbzouk3/atd-logo-geometric-DeNTt8WipdkNfx6Kipa6Xz.webp";
+
+const steps = [
+  {
+    number: "01",
+    icon: MessageSquare,
+    title: "Initial Conversation",
+    description:
+      "It starts with a straightforward conversation. You reach out, we learn about your brand — product categories, current sales channels, volume, and goals. We'll be upfront about whether we think we're a good fit, and we expect the same from you. No pressure, no drawn-out sales process.",
+    details: [
+      "Brand and product category review",
+      "Current Amazon presence assessment",
+      "Volume and margin evaluation",
+      "Alignment on goals and expectations",
+    ],
+  },
+  {
+    number: "02",
+    icon: FileText,
+    title: "Partnership Agreement",
+    description:
+      "If both sides want to move forward, we put together a straightforward wholesale agreement that covers pricing, purchase order terms, MAP policy, and reporting cadence. We keep the contract clean — no hidden clauses, no lock-in terms that don't make sense for both parties.",
+    details: [
+      "Wholesale pricing and payment terms",
+      "MAP policy documentation",
+      "Reporting and communication schedule",
+      "Exclusivity terms (if applicable)",
+    ],
+  },
+  {
+    number: "03",
+    icon: ShieldCheck,
+    title: "Listing Setup & Brand Registry",
+    description:
+      "Before inventory moves, we get your Amazon presence in order. That means optimizing or building out your product listings, setting up A+ Content where applicable, and ensuring your Brand Registry enrollment is active. A clean listing foundation is what everything else builds on.",
+    details: [
+      "Product title, bullets, and description optimization",
+      "Professional image review and A+ Content setup",
+      "Backend keyword research and indexing",
+      "Brand Registry verification and enrollment support",
+    ],
+  },
+  {
+    number: "04",
+    icon: Truck,
+    title: "Inventory & FBA Onboarding",
+    description:
+      "Once listings are ready, we submit our first purchase order and coordinate the FBA shipment. We handle all the prep requirements — FNSKU labeling, packaging compliance, and carrier coordination — so your product arrives at Amazon's fulfillment centers ready to go live.",
+    details: [
+      "Purchase order submission",
+      "FBA shipment plan creation",
+      "FNSKU labeling and prep coordination",
+      "Inbound tracking and receiving confirmation",
+    ],
+  },
+  {
+    number: "05",
+    icon: TrendingUp,
+    title: "Active Sales Management",
+    description:
+      "With inventory live, we actively manage everything on the Amazon side — pricing strategy, Buy Box optimization, PPC advertising, and customer feedback monitoring. You focus on your product and supply chain. We focus on making sure Amazon is working for your brand.",
+    details: [
+      "Buy Box optimization and competitive pricing",
+      "Sponsored Product and Sponsored Brand advertising",
+      "Customer review monitoring and response",
+      "MAP enforcement and unauthorized seller reporting",
+    ],
+  },
+  {
+    number: "06",
+    icon: BarChart2,
+    title: "Reporting & Growth",
+    description:
+      "You'll receive regular performance reports covering sales volume, revenue, inventory levels, and key marketplace metrics. We review the data together, identify what's working, and make adjustments. The goal is a partnership that compounds over time — not a one-time transaction.",
+    details: [
+      "Monthly sales and revenue reports",
+      "Inventory health and reorder planning",
+      "Advertising performance summaries",
+      "Quarterly strategy reviews",
+    ],
+  },
+];
+
+const faqs = [
+  {
+    q: "How long does onboarding take?",
+    a: "From signed agreement to live inventory, onboarding typically takes 5–10 business days. Listing setup and FBA shipment coordination happen in parallel to keep things moving.",
+  },
+  {
+    q: "Do you require exclusivity?",
+    a: "Not by default. Exclusivity is negotiated case by case depending on the brand, category, and volume commitment. We're flexible and will always be upfront about what we're asking for and why.",
+  },
+  {
+    q: "What categories do you work in?",
+    a: "We work across health & wellness, food & beverage, home goods, beauty, and specialty consumer products. If you're unsure whether your category is a fit, just reach out — we'll give you an honest answer.",
+  },
+  {
+    q: "How are wholesale prices determined?",
+    a: "We look at your product cost, Amazon's fees, FBA fulfillment costs, and target margin to arrive at a wholesale price that works for both sides. Every agreement is negotiated individually.",
+  },
+];
+
+export default function HowItWorks() {
+  const [, navigate] = useLocation();
+
+  return (
+    <div className="min-h-screen bg-background">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
+        <div className="container flex items-center justify-between h-16 px-4 md:px-0">
+          <button onClick={() => navigate("/")} className="flex items-center gap-3 hover:opacity-80 transition">
+            <img src={ATD_LOGO} alt="Apex Trade Distribution" className="w-8 h-8" />
+            <span className="font-semibold text-foreground">Apex Trade Distribution</span>
+          </button>
+          <button onClick={() => navigate("/")} className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition">
+            <ArrowLeft className="w-4 h-4" />
+            Back to Home
+          </button>
+        </div>
+      </nav>
+
+      <div className="pt-24 pb-16 px-4">
+        <div className="max-w-3xl mx-auto">
+
+          {/* Header */}
+          <div className="mb-14">
+            <h1 className="text-4xl font-bold mb-4">How It Works</h1>
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              From first conversation to active sales management — here's exactly what it looks like to partner with Apex Trade Distribution.
+            </p>
+          </div>
+
+          {/* Steps */}
+          <div className="relative">
+            {/* Vertical line */}
+            <div className="absolute left-6 top-0 bottom-0 w-px bg-border hidden sm:block" />
+
+            <div className="space-y-10">
+              {steps.map((step) => (
+                <div key={step.number} className="sm:pl-16 relative">
+                  {/* Step number circle */}
+                  <div className="hidden sm:flex absolute left-0 top-0 w-12 h-12 rounded-full bg-primary text-white items-center justify-center font-bold text-sm z-10">
+                    {step.number}
+                  </div>
+
+                  <div className="rounded-xl border border-border p-6">
+                    <div className="flex items-center gap-3 mb-3">
+                      <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center sm:hidden">
+                        <span className="text-xs font-bold text-primary">{step.number}</span>
+                      </div>
+                      <div className="w-8 h-8 rounded-lg bg-primary/10 items-center justify-center hidden sm:flex">
+                        <step.icon className="w-4 h-4 text-primary" />
+                      </div>
+                      <h2 className="text-lg font-semibold">{step.title}</h2>
+                    </div>
+                    <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+                      {step.description}
+                    </p>
+                    <ul className="grid sm:grid-cols-2 gap-2">
+                      {step.details.map((detail) => (
+                        <li key={detail} className="flex items-start gap-2 text-sm text-muted-foreground">
+                          <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-primary/60 shrink-0" />
+                          {detail}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* FAQ */}
+          <div className="mt-16 mb-12">
+            <h2 className="text-2xl font-semibold mb-6">Common Questions</h2>
+            <div className="space-y-4">
+              {faqs.map((item) => (
+                <div key={item.q} className="rounded-xl border border-border p-5">
+                  <p className="font-semibold text-sm mb-2">{item.q}</p>
+                  <p className="text-sm text-muted-foreground leading-relaxed">{item.a}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* CTA */}
+          <div className="rounded-xl border border-primary/20 bg-primary/5 p-6 text-center">
+            <p className="font-semibold mb-1">Ready to get started?</p>
+            <p className="text-sm text-muted-foreground mb-4">
+              The first step is a quick conversation. No commitment, no pressure.
+            </p>
+            <Button className="btn-primary" onClick={() => navigate("/contact")}>
+              Start Your Partnership
+            </Button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  );
+}

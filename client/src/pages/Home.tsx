@@ -224,9 +224,9 @@ export default function Home() {
             <div>
               <h4 className="font-semibold mb-4">Company</h4>
               <ul className="space-y-2 text-sm text-white/60">
-                <li><a href="#" className="hover:text-white transition">About</a></li>
-                <li><a href="#" className="hover:text-white transition">Careers</a></li>
-                <li><a href="#" className="hover:text-white transition">Blog</a></li>
+                <li><a href="#" className="hover:text-white transition" onClick={(e) => { e.preventDefault(); navigate("/about"); }}>About</a></li>
+                <li><a href="#" className="hover:text-white transition" onClick={(e) => { e.preventDefault(); navigate("/how-it-works"); }}>How It Works</a></li>
+                <li><a href="#" className="hover:text-white transition" onClick={(e) => { e.preventDefault(); navigate("/blog"); }}>Blog</a></li>
               </ul>
             </div>
             <div>

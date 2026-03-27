@@ -11,6 +11,10 @@ import Terms from "./pages/Terms";
 import Documentation from "./pages/Documentation";
 import Support from "./pages/Support";
 import FAQ from "./pages/FAQ";
+import About from "./pages/About";
+import HowItWorks from "./pages/HowItWorks";
+import Blog from "./pages/Blog";
+import BlogPost from "./pages/BlogPost";
 
 
 function Router() {
@@ -23,6 +27,10 @@ function Router() {
       <Route path={"/documentation"} component={Documentation} />
       <Route path={"/support"} component={Support} />
       <Route path={"/faq"} component={FAQ} />
+      <Route path={"/about"} component={About} />
+      <Route path={"/how-it-works"} component={HowItWorks} />
+      <Route path={"/blog"} component={Blog} />
+      <Route path={"/blog/:slug"} component={BlogPost} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
