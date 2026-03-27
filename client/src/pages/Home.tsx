@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Zap, Users, TrendingUp } from "lucide-react";
 import { useEffect, useState } from "react";
+import { useLocation } from "wouter";
 
 /**
  * Design Philosophy: Minimalist Futurism with Precision Engineering
@@ -63,6 +64,7 @@ const BRAND_LOGOS = [
 ];
 
 export default function Home() {
+  const [, navigate] = useLocation();
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
@@ -85,7 +87,7 @@ export default function Home() {
             <a href="#brands" className="text-sm hover:text-primary transition">Brands</a>
             <a href="#contact" className="text-sm hover:text-primary transition">Contact</a>
           </div>
-          <Button className="btn-primary text-sm">Get Started</Button>
+          <Button className="btn-primary text-sm" onClick={() => navigate("/contact")}>Get Started</Button>
         </div>
       </nav>
 
@@ -105,7 +107,7 @@ export default function Home() {
                 Apex Trade Distribution partners with leading brands to expand their Amazon FBA presence. Our network of authorized distributors ensures compliance, quality, and exponential growth.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <Button className="btn-primary flex items-center gap-2">
+                <Button className="btn-primary flex items-center gap-2" onClick={() => navigate("/contact")}>
                   Start Partnership <ArrowRight className="w-4 h-4" />
                 </Button>
                 <Button className="btn-secondary">Learn More</Button>
@@ -238,7 +240,7 @@ export default function Home() {
               Join hundreds of brands that have accelerated their growth through our wholesale partnership network.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="bg-white text-primary hover:bg-gray-100 px-8 py-3 font-semibold">
+              <Button className="bg-white text-primary hover:bg-gray-100 px-8 py-3 font-semibold" onClick={() => navigate("/contact")}>
                 Start Your Partnership
               </Button>
               <Button className="border-2 border-white text-white hover:bg-white/10 px-8 py-3 font-semibold">
