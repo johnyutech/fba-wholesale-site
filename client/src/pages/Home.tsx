@@ -55,7 +55,6 @@ export default function Home() {
             <a href="#brands" className="text-sm hover:text-primary transition">Brands</a>
             <a href="#contact" className="text-sm hover:text-primary transition">Contact</a>
             <a href="#" className="text-sm hover:text-primary transition" onClick={(e) => { e.preventDefault(); navigate("/how-it-works"); }}>How It Works</a>
-            <a href="#" className="text-sm hover:text-primary transition" onClick={(e) => { e.preventDefault(); navigate("/blog"); }}>Blog</a>
           </div>
           <Button className="btn-primary text-sm" onClick={() => navigate("/contact")}>Get Started</Button>
         </div>
