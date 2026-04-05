@@ -67,13 +67,13 @@ export default function Home() {
             {/* Left: Content */}
             <div className="space-y-6">
               <div className="inline-block px-4 py-2 bg-blue-50 rounded-full border border-primary/20">
-                <span className="text-sm font-medium text-primary">Trusted by 50+ Suppliers</span>
+                <span className="text-sm font-medium text-primary">Trusted by 50+ Brand Partners</span>
               </div>
               <h1 className="text-5xl md:text-6xl font-bold leading-tight">
-                Scale Your Brand with <span className="text-primary">Apex Trade</span>
+                Built for Brands. <span className="text-primary">Built for Scale.</span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg">
-                Apex Trade Distribution partners with leading brands to expand their Amazon FBA presence. Our network of authorized distributors ensures compliance, quality, and exponential growth.
+                Apex Trade Distribution is a B2B wholesale distributor that partners with consumer brands to connect their products with retail buyers. We handle purchasing, logistics, and channel management so brands can focus on what they do best.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Button className="btn-primary flex items-center gap-2" onClick={() => navigate("/contact")}>
@@ -118,7 +118,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">How We Partner</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Our proven model helps brands achieve exponential growth on Amazon FBA through strategic wholesale partnerships.
+              Our distribution model gives brands reliable wholesale demand, broad retail reach, and a partner that handles the complexity of B2B channel management.
             </p>
           </div>
 
@@ -126,18 +126,18 @@ export default function Home() {
             {[
               {
                 icon: Users,
-                title: "Direct Relationships",
-                description: "We build direct connections between brands and authorized distributors, eliminating intermediaries and ensuring quality control."
+                title: "Retail Buyer Network",
+                description: "We connect brands directly to our established network of retail buyers — from independent retailers to regional chains — creating consistent, scalable demand."
               },
               {
                 icon: TrendingUp,
-                title: "Rapid Scaling",
-                description: "Our network enables brands to scale inventory quickly across multiple channels while maintaining compliance and authenticity."
+                title: "Multi-Channel Distribution",
+                description: "Our distribution reach spans online and brick-and-mortar retail channels, giving brands broad market coverage without managing each account themselves."
               },
               {
                 icon: Zap,
                 title: "Market Intelligence",
-                description: "Real-time insights into market trends, pricing, and demand help optimize your wholesale strategy for maximum ROI."
+                description: "Real-time insights into buyer demand, channel performance, and pricing trends help brands make better decisions about inventory and growth."
               }
             ].map((item, i) => (
               <div
@@ -195,9 +195,9 @@ export default function Home() {
         </div>
         <div className="container relative z-10">
           <div className="text-center max-w-2xl mx-auto">
-            <h2 className="text-4xl font-bold mb-4">Ready to Scale Your Brand?</h2>
+            <h2 className="text-4xl font-bold mb-4">Ready to Expand Your Distribution?</h2>
             <p className="text-lg text-white/90 mb-8">
-              Join hundreds of brands that have accelerated their growth through our wholesale partnership network.
+              Join the brands that rely on Apex Trade to move product, reach new buyers, and grow their wholesale business.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-white text-primary hover:bg-gray-100 px-8 py-3 font-semibold" onClick={() => navigate("/contact")}>
@@ -220,7 +220,7 @@ export default function Home() {
                 <img src={ATD_LOGO} alt="Apex Trade Distribution" className="w-8 h-8" />
                 <span className="font-semibold">Apex Trade Distribution</span>
               </div>
-              <p className="text-white/60 text-sm">Scaling brands through strategic wholesale partnerships on Amazon FBA.</p>
+              <p className="text-white/60 text-sm">Connecting brands with retail buyers through strategic B2B wholesale distribution.</p>
             </div>
             <div>
               <h4 className="font-semibold mb-4">Company</h4>

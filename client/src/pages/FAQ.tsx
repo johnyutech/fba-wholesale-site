@@ -12,15 +12,15 @@ const faqs = [
     questions: [
       {
         q: "How does Apex Trade Distribution work?",
-        a: "We purchase your products at wholesale prices and resell them on Amazon through the FBA (Fulfillment by Amazon) program. You supply the inventory, we handle everything on Amazon — listing creation, pricing, advertising, fulfillment, and customer service.",
+        a: "We purchase your products at wholesale prices and distribute them through our retail buyer network. You supply the inventory, we handle everything on the distribution side — buyer relationships, order management, pricing, fulfillment, and reporting.",
       },
       {
         q: "What types of brands do you work with?",
-        a: "We work with established consumer brands across a wide range of categories including health & wellness, beauty, home goods, sports & outdoors, and more. We look for brands with proven products, consistent supply, and a desire to grow their Amazon presence.",
+        a: "We work with established consumer brands across a wide range of categories including health & wellness, beauty, home goods, sports & outdoors, and more. We look for brands with proven products, consistent supply, and a desire to grow their wholesale distribution.",
       },
       {
         q: "How long does onboarding take?",
-        a: "Onboarding typically takes 5–10 business days from the time a partnership agreement is signed. This includes listing setup, inventory shipment planning, and FBA account configuration.",
+        a: "Onboarding typically takes 5–10 business days from the time a partnership agreement is signed. This includes catalog setup, inventory coordination, and buyer channel onboarding.",
       },
       {
         q: "Is there an exclusivity requirement?",
@@ -29,23 +29,23 @@ const faqs = [
     ],
   },
   {
-    category: "Amazon FBA",
+    category: "Distribution & Fulfillment",
     questions: [
       {
-        q: "What is Amazon FBA?",
-        a: "FBA (Fulfillment by Amazon) is a program where Amazon stores your products in their fulfillment centers and handles picking, packing, shipping, and customer service. Products sold through FBA are typically Prime-eligible, which significantly increases visibility and conversion rates.",
+        q: "What retail channels do you distribute through?",
+        a: "We distribute through a range of retail channels including online retailers, regional chains, specialty stores, and independent retailers. Channel mix varies by product category and is discussed during the partnership onboarding process.",
       },
       {
-        q: "Do I need to be enrolled in Amazon Brand Registry?",
-        a: "While not mandatory, Brand Registry is strongly recommended. It gives you greater control over your product listings, access to A+ Content, and enhanced protection against unauthorized sellers and counterfeit products. We can assist with the enrollment process.",
+        q: "How do you handle order fulfillment?",
+        a: "We manage outbound fulfillment to our retail buyers directly. Once we receive inventory from brand partners, we process buyer orders, coordinate shipping, and handle any logistics issues that arise — keeping you informed without adding to your workload.",
       },
       {
-        q: "What happens if a product gets a policy violation on Amazon?",
-        a: "We monitor listings closely and address compliance issues proactively. If a violation occurs, we work quickly to resolve it through Amazon Seller Support and keep you informed throughout the process. Serious violations that affect account health are treated as urgent issues.",
+        q: "What happens if there's a fulfillment issue or product dispute?",
+        a: "We address fulfillment issues proactively and keep brand partners informed. Disputes are handled directly with buyers on your behalf. Serious issues affecting brand reputation are treated as urgent and escalated immediately.",
       },
       {
-        q: "Can you sell on Amazon marketplaces outside the US?",
-        a: "We currently focus on the US Amazon marketplace (Amazon.com). Expansion to international marketplaces such as Canada, UK, or Europe can be discussed as part of an advanced partnership arrangement.",
+        q: "Do you distribute outside the US?",
+        a: "We currently focus on domestic US distribution. Expansion to international markets can be discussed as part of an advanced partnership arrangement.",
       },
     ],
   },
@@ -54,7 +54,7 @@ const faqs = [
     questions: [
       {
         q: "How is wholesale pricing determined?",
-        a: "Wholesale pricing is negotiated individually with each brand partner. We evaluate product cost, Amazon marketplace fees, FBA fulfillment costs, and advertising spend to arrive at a mutually beneficial price point. All pricing is formalized in a purchase order or wholesale agreement.",
+        a: "Wholesale pricing is negotiated individually with each brand partner. We evaluate product cost, fulfillment costs, buyer pricing expectations, and target margin to arrive at a mutually beneficial price point. All pricing is formalized in a purchase order or wholesale agreement.",
       },
       {
         q: "Do you honor MAP (Minimum Advertised Price) policies?",
@@ -65,8 +65,8 @@ const faqs = [
         a: "Minimum order quantities (MOQs) vary depending on the product, category, and agreement terms. We discuss MOQs during the onboarding process and align on purchase order cadence based on sales velocity and inventory goals.",
       },
       {
-        q: "Who is responsible for FBA storage fees?",
-        a: "FBA storage and fulfillment fees are factored into our cost model. We actively manage inventory levels to minimize long-term storage fees and avoid unnecessary costs that could affect profitability.",
+        q: "Who is responsible for warehousing and storage costs?",
+        a: "Storage and fulfillment costs are factored into our cost model. We actively manage inventory turnover to minimize holding costs and avoid excess stock that could affect profitability for either side.",
       },
     ],
   },
@@ -82,8 +82,8 @@ const faqs = [
         a: "All partner inquiries are handled by our team directly. You can reach us at john.yu@apexdistribution.co or by submitting a message through our contact page. We typically respond within 1–2 business days.",
       },
       {
-        q: "Can I see my Amazon listing performance in real time?",
-        a: "We provide regular reporting snapshots and can share relevant performance data upon request. For brands enrolled in Brand Registry, Amazon also provides its own analytics dashboard through Brand Analytics.",
+        q: "Can I see distribution performance in real time?",
+        a: "We provide regular reporting snapshots and can share relevant performance data upon request. For brands that want more visibility, we can set up a custom reporting cadence that gives you timely access to sales, inventory, and buyer channel metrics.",
       },
     ],
   },
@@ -131,7 +131,7 @@ export default function FAQ() {
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl font-bold mb-2">Frequently Asked Questions</h1>
           <p className="text-muted-foreground mb-10">
-            Answers to the most common questions about our wholesale partnership and Amazon FBA distribution services.
+            Answers to the most common questions about our wholesale partnership and B2B distribution services.
           </p>
 
           <div className="space-y-10">

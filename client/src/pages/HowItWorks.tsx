@@ -14,7 +14,7 @@ const steps = [
       "It starts with a straightforward conversation. You reach out, we learn about your brand — product categories, current sales channels, volume, and goals. We'll be upfront about whether we think we're a good fit, and we expect the same from you. No pressure, no drawn-out sales process.",
     details: [
       "Brand and product category review",
-      "Current Amazon presence assessment",
+      "Current distribution channel assessment",
       "Volume and margin evaluation",
       "Alignment on goals and expectations",
     ],
@@ -35,40 +35,40 @@ const steps = [
   {
     number: "03",
     icon: ShieldCheck,
-    title: "Listing Setup & Brand Registry",
+    title: "Catalog & Product Setup",
     description:
-      "Before inventory moves, we get your Amazon presence in order. That means optimizing or building out your product listings, setting up A+ Content where applicable, and ensuring your Brand Registry enrollment is active. A clean listing foundation is what everything else builds on.",
+      "Before inventory moves, we get your product catalog in order. That means reviewing specs, imagery, and product data across our distribution channels, confirming MAP policy terms, and ensuring we have everything needed to represent your brand accurately to buyers.",
     details: [
-      "Product title, bullets, and description optimization",
-      "Professional image review and A+ Content setup",
-      "Backend keyword research and indexing",
-      "Brand Registry verification and enrollment support",
+      "Product catalog and SKU review",
+      "Imagery and spec sheet collection",
+      "MAP policy documentation and confirmation",
+      "Buyer-facing sell sheet preparation",
     ],
   },
   {
     number: "04",
     icon: Truck,
-    title: "Inventory & FBA Onboarding",
+    title: "Inventory & Fulfillment Onboarding",
     description:
-      "Once listings are ready, we submit our first purchase order and coordinate the FBA shipment. We handle all the prep requirements — FNSKU labeling, packaging compliance, and carrier coordination — so your product arrives at Amazon's fulfillment centers ready to go live.",
+      "Once setup is complete, we submit our first purchase order and coordinate inbound inventory to our fulfillment operation. We handle packaging compliance and carrier coordination so product arrives ready to ship to buyers without delays.",
     details: [
       "Purchase order submission",
-      "FBA shipment plan creation",
-      "FNSKU labeling and prep coordination",
-      "Inbound tracking and receiving confirmation",
+      "Inbound shipment coordination",
+      "Packaging and labeling compliance review",
+      "Receiving confirmation and inventory check-in",
     ],
   },
   {
     number: "05",
     icon: TrendingUp,
-    title: "Active Sales Management",
+    title: "Active Distribution & Order Management",
     description:
-      "With inventory live, we actively manage everything on the Amazon side — pricing strategy, Buy Box optimization, PPC advertising, and customer feedback monitoring. You focus on your product and supply chain. We focus on making sure Amazon is working for your brand.",
+      "With inventory in hand, we actively sell to our retail buyer network — managing pricing, fielding buyer inquiries, processing orders, and coordinating outbound fulfillment. You focus on your product and supply chain. We focus on moving it.",
     details: [
-      "Buy Box optimization and competitive pricing",
-      "Sponsored Product and Sponsored Brand advertising",
-      "Customer review monitoring and response",
-      "MAP enforcement and unauthorized seller reporting",
+      "Retail buyer outreach and account management",
+      "Competitive pricing and MAP enforcement",
+      "Order processing and outbound fulfillment",
+      "Unauthorized seller monitoring and reporting",
     ],
   },
   {
@@ -80,7 +80,7 @@ const steps = [
     details: [
       "Monthly sales and revenue reports",
       "Inventory health and reorder planning",
-      "Advertising performance summaries",
+      "Channel and buyer performance summaries",
       "Quarterly strategy reviews",
     ],
   },
@@ -89,7 +89,7 @@ const steps = [
 const faqs = [
   {
     q: "How long does onboarding take?",
-    a: "From signed agreement to live inventory, onboarding typically takes 5–10 business days. Listing setup and FBA shipment coordination happen in parallel to keep things moving.",
+    a: "From signed agreement to active distribution, onboarding typically takes 5–10 business days. Catalog setup, inventory coordination, and buyer introductions happen in parallel to keep things moving.",
   },
   {
     q: "Do you require exclusivity?",
@@ -101,7 +101,7 @@ const faqs = [
   },
   {
     q: "How are wholesale prices determined?",
-    a: "We look at your product cost, Amazon's fees, FBA fulfillment costs, and target margin to arrive at a wholesale price that works for both sides. Every agreement is negotiated individually.",
+    a: "We look at your product cost, our fulfillment costs, buyer pricing expectations, and target margin to arrive at a wholesale price that works for both sides. Every agreement is negotiated individually.",
   },
 ];
 
@@ -130,7 +130,7 @@ export default function HowItWorks() {
           <div className="mb-14">
             <h1 className="text-4xl font-bold mb-4">How It Works</h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              From first conversation to active sales management — here's exactly what it looks like to partner with Apex Trade Distribution.
+              From first conversation to active distribution — here's exactly what it looks like to partner with Apex Trade Distribution.
             </p>
           </div>
 

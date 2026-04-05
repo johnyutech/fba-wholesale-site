@@ -7,64 +7,64 @@ const ATD_LOGO =
 
 const posts = [
   {
-    category: "Amazon Strategy",
+    category: "Distribution Strategy",
     date: "March 18, 2026",
-    title: "Why MAP Enforcement Is Critical for Your Amazon Brand Health",
+    title: "Why MAP Enforcement Is Critical for Your Brand's Wholesale Health",
     summary:
-      "Minimum Advertised Price policies protect your brand's value and prevent a race to the bottom on Amazon. Here's how to enforce them effectively and what to do when violations occur.",
+      "Minimum Advertised Price policies protect your brand's value and prevent a race to the bottom across retail channels. Here's how to enforce them effectively and what to do when violations occur.",
     readTime: "5 min read",
     slug: "map-enforcement",
   },
   {
-    category: "FBA Operations",
+    category: "Wholesale Operations",
     date: "March 10, 2026",
-    title: "Understanding FBA Storage Fees and How to Minimize Them",
+    title: "Understanding Inventory Carrying Costs and How to Minimize Them",
     summary:
-      "Long-term storage fees can quietly erode your margins. We break down Amazon's fee structure, when fees apply, and the inventory management strategies we use to keep costs low.",
+      "Warehousing and carrying costs can quietly erode your margins. We break down the key cost drivers, when they apply, and the inventory management strategies that keep wholesale operations lean.",
     readTime: "6 min read",
-    slug: "fba-storage-fees",
+    slug: "inventory-carrying-costs",
   },
   {
     category: "Brand Protection",
     date: "February 28, 2026",
-    title: "Amazon Brand Registry: What It Is and Why Every Seller Should Enroll",
+    title: "Protecting Your Brand in Wholesale: Authorized Distributors and Gray Market Risk",
     summary:
-      "Brand Registry gives brand owners powerful tools to control their listings, fight counterfeits, and access enhanced content features. Here's a complete guide to enrollment and what you gain.",
+      "Gray market sellers and unauthorized resellers can undercut your pricing and damage your brand reputation. Here's how to build a distribution strategy that keeps your channel clean.",
     readTime: "7 min read",
-    slug: "brand-registry",
+    slug: "brand-protection-wholesale",
   },
   {
     category: "Wholesale Partnerships",
     date: "February 14, 2026",
-    title: "What to Look for in an Amazon Wholesale Distribution Partner",
+    title: "What to Look for in a B2B Wholesale Distribution Partner",
     summary:
-      "Not all distributors are created equal. We outline the key questions brands should ask before entering a wholesale partnership — from compliance practices to reporting transparency.",
+      "Not all distributors are created equal. We outline the key questions brands should ask before entering a wholesale partnership — from buyer network quality to reporting transparency.",
     readTime: "5 min read",
     slug: "wholesale-distribution-partner",
   },
   {
-    category: "Amazon Strategy",
+    category: "Distribution Strategy",
     date: "January 30, 2026",
-    title: "A+ Content: How Enhanced Listings Drive Higher Conversion Rates",
+    title: "Multi-Channel Distribution: How to Reach More Buyers Without Losing Control",
     summary:
-      "A+ Content allows brand-registered sellers to tell a richer story on their product pages. We look at the data behind conversion lift and walk through what makes a high-performing A+ layout.",
+      "Expanding your distribution reach is valuable — but only if it's done in a way that preserves pricing integrity and brand consistency. We walk through how to scale distribution the right way.",
     readTime: "6 min read",
-    slug: "a-plus-content",
+    slug: "multi-channel-distribution",
   },
   {
-    category: "FBA Operations",
+    category: "Wholesale Operations",
     date: "January 15, 2026",
-    title: "FBA vs. FBM: Choosing the Right Fulfillment Model for Your Brand",
+    title: "Direct vs. Wholesale Distribution: Choosing the Right Model for Your Brand",
     summary:
-      "Fulfillment by Amazon offers speed and Prime eligibility, but it's not right for every product. We compare FBA and FBM across cost, control, and customer experience to help brands decide.",
+      "Selling direct offers control, but wholesale distribution offers scale. We compare both models across margin, operational complexity, and growth potential to help brands make the right call.",
     readTime: "8 min read",
-    slug: "fba-vs-fbm",
+    slug: "direct-vs-wholesale",
   },
 ];
 
 const categoryColors: Record<string, string> = {
-  "Amazon Strategy": "bg-blue-50 text-blue-600",
-  "FBA Operations": "bg-green-50 text-green-600",
+  "Distribution Strategy": "bg-blue-50 text-blue-600",
+  "Wholesale Operations": "bg-green-50 text-green-600",
   "Brand Protection": "bg-purple-50 text-purple-600",
   "Wholesale Partnerships": "bg-orange-50 text-orange-600",
 };
@@ -94,7 +94,7 @@ export default function Blog() {
           <div className="mb-14">
             <h1 className="text-4xl font-bold mb-4">Blog</h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Insights, strategies, and best practices for brands growing on Amazon FBA. Written by the Apex Trade Distribution team.
+              Insights, strategies, and best practices for brands growing through wholesale distribution. Written by the Apex Trade Distribution team.
             </p>
           </div>
 
@@ -134,7 +134,7 @@ export default function Blog() {
 
           {/* CTA */}
           <div className="mt-12 rounded-xl border border-border bg-muted/30 p-6 text-center">
-            <p className="font-semibold mb-1">Want to learn more about growing on Amazon?</p>
+            <p className="font-semibold mb-1">Want to learn more about growing through wholesale distribution?</p>
             <p className="text-sm text-muted-foreground mb-4">
               Reach out to our team — we're happy to talk through your brand's specific situation.
             </p>

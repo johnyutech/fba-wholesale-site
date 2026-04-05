@@ -10,16 +10,16 @@ const sections = [
     title: "Getting Started",
     content: [
       {
-        heading: "What is Wholesale FBA Distribution?",
-        body: "Apex Trade Distribution purchases your products at wholesale prices and resells them through Amazon's Fulfillment by Amazon (FBA) program. We handle all aspects of Amazon sales — from listing creation to customer service — while you focus on growing your brand.",
+        heading: "What is B2B Wholesale Distribution?",
+        body: "Apex Trade Distribution purchases your products at wholesale prices and distributes them through our retail buyer network. We manage buyer relationships, order fulfillment, pricing, and reporting — while you focus on your product and supply chain.",
       },
       {
         heading: "Onboarding Process",
-        body: "Once a partnership agreement is signed, onboarding typically takes 5–10 business days. This includes account setup, listing creation or optimization, inventory shipment planning, and brand registry verification.",
+        body: "Once a partnership agreement is signed, onboarding typically takes 5–10 business days. This includes catalog setup, inventory coordination, buyer channel onboarding, and MAP policy documentation.",
       },
       {
         heading: "Minimum Requirements",
-        body: "We work with brands that have established products, a valid UPC/EAN barcode, and the ability to fulfill consistent wholesale purchase orders. Products must comply with Amazon's restricted items policy and be eligible for FBA.",
+        body: "We work with brands that have established products, a valid UPC/EAN barcode, and the ability to fulfill consistent wholesale purchase orders. Products must be retail-ready and comply with applicable labeling and safety requirements.",
       },
     ],
   },
@@ -28,16 +28,16 @@ const sections = [
     title: "Inventory & Fulfillment",
     content: [
       {
-        heading: "How FBA Works",
-        body: "Amazon FBA (Fulfillment by Amazon) allows us to store your products in Amazon's fulfillment centers. When a customer places an order, Amazon picks, packs, ships, and handles customer service on your product's behalf — ensuring Prime eligibility and fast delivery.",
+        heading: "How Our Fulfillment Works",
+        body: "We receive inbound inventory from brand partners, store it in our fulfillment operation, and ship outbound orders to retail buyers as they come in. This allows buyers to receive fast, reliable fulfillment without brands needing to manage individual B2B orders.",
       },
       {
-        heading: "Shipping to Amazon Warehouses",
-        body: "Inventory is shipped to Amazon's fulfillment centers according to Amazon's FBA shipment requirements. Products must be properly labeled with FNSKU barcodes, packaged according to Amazon's prep guidelines, and shipped in compliance with Amazon's carrier requirements.",
+        heading: "Shipping Inventory to Us",
+        body: "Inventory is shipped to our fulfillment location according to our inbound requirements. Products must be properly labeled, packaged to retail-ready standards, and shipped with an advance shipping notice (ASN) so we can receive and check in efficiently.",
       },
       {
         heading: "Inventory Replenishment",
-        body: "We monitor sell-through rates and proactively submit purchase orders to maintain healthy inventory levels. Low stock alerts and reorder thresholds are managed to minimize stockouts and avoid excess storage fees.",
+        body: "We monitor sell-through rates and proactively submit purchase orders to maintain healthy inventory levels. Low stock alerts and reorder thresholds are managed to minimize stockouts and avoid excess inventory buildup.",
       },
     ],
   },
@@ -46,16 +46,16 @@ const sections = [
     title: "Listing & Sales Management",
     content: [
       {
-        heading: "Listing Optimization",
-        body: "Our team creates and optimizes Amazon product listings including titles, bullet points, descriptions, backend keywords, and A+ Content (where applicable). Listings are crafted to maximize search visibility and conversion rates in line with Amazon's style guidelines.",
+        heading: "Catalog & Product Presentation",
+        body: "We maintain accurate, buyer-ready product information across our distribution channels including product descriptions, specifications, imagery, and sell sheets. Accurate catalog data reduces buyer friction and supports faster purchasing decisions.",
       },
       {
         heading: "Pricing Strategy",
-        body: "We manage competitive pricing in compliance with your MAP (Minimum Advertised Price) policy. Our pricing strategy balances buy box ownership, profitability, and brand positioning to drive consistent sales velocity.",
+        body: "We manage competitive pricing in compliance with your MAP (Minimum Advertised Price) policy. Our pricing strategy balances buyer competitiveness, profitability, and brand positioning to drive consistent sales velocity across channels.",
       },
       {
-        heading: "Advertising",
-        body: "Sponsored Product and Sponsored Brand campaigns may be utilized to drive traffic to listings. Advertising decisions are made in consultation with brand partners and are managed to optimize return on ad spend (ROAS).",
+        heading: "Buyer Account Management",
+        body: "Our team actively manages relationships with retail buyers — fielding inquiries, processing orders, coordinating reorders, and growing account volume over time. Strong buyer relationships are central to how we drive sustained distribution growth.",
       },
     ],
   },
@@ -64,12 +64,12 @@ const sections = [
     title: "Brand Protection",
     content: [
       {
-        heading: "Authorized Seller Policy",
-        body: "We support brands in maintaining a clean, authorized seller environment on Amazon. As your authorized distributor, we operate in full compliance with your brand's policies and help enforce MAP violations where possible through Amazon's reporting tools.",
+        heading: "Authorized Distributor Policy",
+        body: "We operate as a fully authorized distributor for every brand we carry. We do not source from gray market channels and do not resell products in ways that violate brand policies. Every partnership is governed by a formal agreement that defines the scope of our distribution rights.",
       },
       {
-        heading: "Amazon Brand Registry",
-        body: "We strongly encourage all brand partners to enroll in Amazon Brand Registry, which provides greater control over product listings, access to A+ Content, and enhanced anti-counterfeiting tools. We can assist in the registration process.",
+        heading: "Unauthorized Seller Monitoring",
+        body: "We monitor distribution channels for unauthorized resellers and MAP violations and report them to brand partners as part of our ongoing channel management. Keeping your distribution channel clean protects pricing integrity and brand equity.",
       },
       {
         heading: "Intellectual Property Compliance",
@@ -87,7 +87,7 @@ const sections = [
       },
       {
         heading: "Performance Metrics",
-        body: "Key metrics we track include sell-through rate, Buy Box percentage, customer review ratings, return rate, and advertising performance. These metrics inform our joint strategy for growing your brand on Amazon.",
+        body: "Key metrics we track include sell-through rate, order fill rate, buyer reorder frequency, return rate, and channel revenue. These metrics inform our joint strategy for growing your brand's wholesale distribution over time.",
       },
     ],
   },
@@ -133,7 +133,7 @@ export default function Documentation() {
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl font-bold mb-2">Documentation</h1>
           <p className="text-muted-foreground mb-10">
-            Everything you need to know about partnering with Apex Trade Distribution for Amazon FBA wholesale distribution.
+            Everything you need to know about partnering with Apex Trade Distribution for B2B wholesale distribution.
           </p>
 
           <div className="space-y-12">

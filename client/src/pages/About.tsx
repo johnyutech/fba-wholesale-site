@@ -14,7 +14,7 @@ const values = [
   {
     icon: TrendingUp,
     title: "Growth-Focused",
-    body: "Our model is designed around one goal: helping brands scale. We invest in the infrastructure, expertise, and relationships needed to drive meaningful, sustainable growth on Amazon.",
+    body: "Our model is designed around one goal: helping brands grow their wholesale volume. We invest in the buyer relationships, logistics infrastructure, and channel expertise needed to drive meaningful, sustainable distribution growth.",
   },
   {
     icon: Users,
@@ -48,7 +48,7 @@ export default function About() {
           <div className="mb-14">
             <h1 className="text-4xl font-bold mb-4">About Apex Trade Distribution</h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Apex Trade Distribution is an authorized wholesale distributor specializing in Amazon FBA. We partner directly with consumer brands to expand their reach, protect their reputation, and accelerate their growth on the world's largest e-commerce platform.
+              Apex Trade Distribution is a B2B wholesale distributor. We partner directly with consumer brands to purchase their products at wholesale and distribute them through our retail buyer network — expanding their reach, protecting their reputation, and accelerating their growth across retail channels.
             </p>
           </div>
 
@@ -56,10 +56,10 @@ export default function About() {
           <div className="mb-14">
             <h2 className="text-2xl font-semibold mb-4">Our Mission</h2>
             <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-              Our mission is simple: make Amazon work for brands, not against them. Too many great products get lost in a crowded marketplace — undercut by unauthorized sellers, buried by poorly optimized listings, or held back by logistics complexity.
+              Our mission is simple: give brands a reliable, professional distribution partner they can actually count on. Too many great products underperform because brands lack access to the right buyers, the right channels, or the infrastructure to fulfill B2B orders at scale.
             </p>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              We exist to change that. By combining deep Amazon expertise with a rigorous, compliance-first approach, we help brands capture their fair share of the marketplace — and then grow beyond it.
+              We exist to change that. By combining deep wholesale distribution expertise with a compliance-first approach, we help brands build consistent, scalable demand across retail channels — and grow beyond what direct sales alone can achieve.
             </p>
           </div>
 
@@ -67,10 +67,10 @@ export default function About() {
           <div className="mb-14">
             <h2 className="text-2xl font-semibold mb-4">What We Do</h2>
             <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-              We purchase inventory directly from brand partners at wholesale prices and manage the full Amazon sales cycle on their behalf. This includes listing creation and optimization, FBA inventory management, pricing strategy, advertising, and ongoing performance monitoring.
+              We purchase inventory directly from brand partners at wholesale prices and distribute it through our retail buyer network. This includes managing buyer relationships, coordinating logistics and fulfillment, enforcing MAP policies, and providing brands with transparent performance reporting.
             </p>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Our team brings hands-on experience across dozens of product categories including health & wellness, food & beverage, home goods, beauty, and specialty consumer products. We know what it takes to compete — and win — on Amazon.
+              Our team brings hands-on experience across dozens of product categories including health & wellness, food & beverage, home goods, beauty, and specialty consumer products. We know how to move product through wholesale channels — efficiently, reliably, and at scale.
             </p>
           </div>
 
@@ -96,11 +96,11 @@ export default function About() {
             <ul className="space-y-3">
               {[
                 "Authorized distributor status — no gray market, no counterfeit risk",
-                "Full-service Amazon management from listing to fulfillment",
+                "Established retail buyer network across online and brick-and-mortar channels",
                 "MAP policy enforcement and brand protection",
                 "Transparent reporting and open communication",
                 "Proven experience across health, food, home, and specialty categories",
-                "Compliance with Amazon's policies and brand registry requirements",
+                "Reliable wholesale purchasing with consistent purchase order cadence",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3 text-sm text-muted-foreground">
                   <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-primary shrink-0" />
@@ -112,9 +112,9 @@ export default function About() {
 
           {/* CTA */}
           <div className="rounded-xl border border-primary/20 bg-primary/5 p-6 text-center">
-            <p className="font-semibold mb-1">Ready to grow your brand on Amazon?</p>
+            <p className="font-semibold mb-1">Ready to grow your wholesale distribution?</p>
             <p className="text-sm text-muted-foreground mb-4">
-              Let's talk about how Apex Trade Distribution can help you scale.
+              Let's talk about how Apex Trade Distribution can expand your wholesale reach.
             </p>
             <Button className="btn-primary" onClick={() => navigate("/contact")}>
               Start Your Partnership

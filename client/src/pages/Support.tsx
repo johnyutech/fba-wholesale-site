@@ -12,31 +12,31 @@ const topics = [
     items: [
       "Submitting a new purchase order",
       "Updating product quantities or SKUs",
-      "FBA shipment prep and labeling requirements",
-      "Stranded or unfulfillable inventory",
-      "Storage fee concerns and inventory removal",
+      "Inbound shipment prep and labeling requirements",
+      "Damaged or unsellable inventory",
+      "Storage concerns and inventory returns",
     ],
   },
   {
     icon: AlertCircle,
-    title: "Listing Issues",
+    title: "Orders & Fulfillment",
     items: [
-      "Listing suppressed or inactive",
-      "Incorrect product detail page information",
-      "Image or content update requests",
-      "ASIN merge or variation requests",
-      "Listing hijacking or unauthorized seller reports",
+      "Order status or tracking inquiries",
+      "Incorrect or missing items in a shipment",
+      "Return or exchange requests",
+      "Buyer account setup or onboarding",
+      "Fulfillment delays or carrier issues",
     ],
   },
   {
     icon: ShieldAlert,
-    title: "Account & Compliance",
+    title: "Brand & Compliance",
     items: [
-      "Amazon policy violation notices",
-      "Brand Registry enrollment assistance",
       "MAP policy enforcement",
+      "Unauthorized reseller reports",
       "Product authenticity or IP complaints",
-      "Account health inquiries",
+      "Catalog or product data corrections",
+      "Brand guideline questions",
     ],
   },
   {
@@ -74,7 +74,7 @@ export default function Support() {
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl font-bold mb-2">Support</h1>
           <p className="text-muted-foreground mb-10">
-            We're here to help. Reach out to our team for any questions related to your wholesale partnership, inventory, listings, or account.
+            We're here to help. Reach out to our team for any questions related to your wholesale partnership, inventory, orders, or distribution account.
           </p>
 
           {/* Contact card */}
@@ -126,7 +126,7 @@ export default function Support() {
           <div className="rounded-xl border border-border bg-muted/30 p-5">
             <h3 className="font-semibold mb-2">Urgent Issues</h3>
             <p className="text-sm text-muted-foreground">
-              For time-sensitive matters such as Amazon account suspensions, listing takedowns, or IP complaints, please indicate "URGENT" in your subject line when emailing us. We prioritize these cases and aim to respond within the same business day.
+              For time-sensitive matters such as fulfillment disruptions, IP complaints, or unauthorized seller activity threatening your brand, please indicate "URGENT" in your subject line when emailing us. We prioritize these cases and aim to respond within the same business day.
             </p>
           </div>
         </div>

@@ -15,142 +15,135 @@ type Post = {
 
 const posts: Record<string, Post> = {
   "map-enforcement": {
-    category: "Amazon Strategy",
+    category: "Distribution Strategy",
     date: "March 18, 2026",
     readTime: "5 min read",
-    title: "Why MAP Enforcement Is Critical for Your Amazon Brand Health",
+    title: "Why MAP Enforcement Is Critical for Your Brand's Wholesale Health",
     content: (
       <div className="space-y-5 text-sm leading-relaxed text-muted-foreground">
         <p>
-          If you've spent any time selling on Amazon, you've probably dealt with this at some point: you set a MAP policy, shake hands with your distributors, and two weeks later someone's listing your product for 30% below your price floor. It's frustrating, and it's more damaging than most brands realize.
+          If you've spent any time distributing through wholesale channels, you've probably dealt with this: you set a MAP policy, sign agreements with your distributors, and a few weeks later someone's advertising your product at 30% below your price floor. It's frustrating, and it's more damaging than most brands realize.
         </p>
         <p>
-          MAP — Minimum Advertised Price — is the lowest price a reseller is allowed to publicly advertise your product. It's not a sales floor. Resellers can technically sell below MAP in certain situations, like on checkout pages. But when it comes to the price that shows up on Amazon search results or product detail pages, MAP is the line.
+          MAP — Minimum Advertised Price — is the lowest price a reseller is allowed to publicly advertise your product. It's a contractual commitment, not a suggestion. And when it breaks down in wholesale, the consequences ripple across every channel you sell through.
         </p>
         <h2 className="text-lg font-semibold text-foreground pt-2">What actually happens when MAP breaks down</h2>
         <p>
-          The immediate effect is obvious — your product is cheaper than you intended. But the downstream consequences are worse. Other authorized sellers see the violation and start undercutting each other trying to win the Buy Box. Within days, you've got a pricing race to the bottom that's almost impossible to stop once it starts.
+          The immediate effect is obvious — your product is cheaper than you intended. But the downstream consequences are worse. Other authorized buyers see the violation and start demanding the same price to stay competitive. Retailers who bought inventory at standard wholesale pricing feel undercut and start pushing back. Within weeks, your entire pricing structure is under pressure.
         </p>
         <p>
-          Beyond the margin hit, it signals to the broader market that your brand doesn't enforce its own rules. Retail partners start to question whether Amazon is undercutting their brick-and-mortar margins. Wholesale buyers wonder why they're holding inventory at a price point that's being blown out online. The credibility damage spreads fast.
+          Beyond the margin hit, it signals to the market that your brand doesn't enforce its own rules. Brick-and-mortar retailers start questioning whether they can profitably carry your product when online prices are being blown out. The credibility damage spreads fast and takes a long time to repair.
         </p>
-        <h2 className="text-lg font-semibold text-foreground pt-2">Why Amazon makes this harder than it should be</h2>
+        <h2 className="text-lg font-semibold text-foreground pt-2">Why wholesale makes this harder than direct-to-consumer</h2>
         <p>
-          Amazon doesn't enforce MAP. They're clear about this. Their position is essentially that price competition benefits consumers, so they're not going to police your pricing agreements for you. That means enforcement falls entirely on the brand.
+          When you sell direct, you control the price. In wholesale, you've sold the product — you no longer own it, and your ability to dictate the resale price has legal limits. MAP policies work around this by setting a floor on advertised price rather than actual sale price, which is an important distinction.
         </p>
         <p>
-          The other wrinkle is that Amazon's algorithm actively favors the lowest price when determining Buy Box eligibility. So a seller undercutting your MAP isn't just violating policy — they're getting algorithmically rewarded for it. This is why MAP violations on Amazon tend to compound so quickly.
+          The challenge is that enforcement falls entirely on the brand. Your distributor agreed to your MAP policy, but if a downstream buyer they sold to doesn't honor it, you're multiple steps removed from the violation. That's why your distribution chain matters so much — every additional link is another potential leak.
         </p>
         <h2 className="text-lg font-semibold text-foreground pt-2">What actually works</h2>
         <p>
-          The first step is getting enrolled in Amazon Brand Registry if you haven't already. Brand Registry doesn't enforce MAP for you, but it gives you the tools to control your listings, report unauthorized sellers, and protect your product detail pages from being hijacked or altered.
+          Tight distribution is the foundation. The more distributors and resellers you have, the harder MAP is to enforce. Working with fewer, more accountable wholesale partners — ones who contractually agree to MAP and flow those terms to their buyers — makes a real difference.
         </p>
         <p>
-          From there, it's really about having tight control over your distribution chain. The more distributors you have, the harder MAP is to enforce. Every link in the chain is an opportunity for product to leak into unauthorized hands. Working with fewer, more accountable wholesale partners makes a real difference.
+          Monitor regularly. Set up price tracking across the channels where your product appears and review it on a consistent cadence. Violations you catch within days are much easier to address than ones that have been running for months.
         </p>
         <p>
-          When violations do happen, acting quickly matters. Document the violation with screenshots, identify the seller, and reach out directly if possible. If they're a legitimate reseller who agreed to your MAP policy, remind them of the terms and give them a window to correct it. Repeat offenders need to lose purchasing access — simple as that.
+          When violations do happen, act quickly. Document the violation, identify the seller, and reach out directly. If they're a legitimate reseller who agreed to your MAP policy, give them a short window to correct it. Repeat offenders need to lose purchasing access — that's the only signal that actually changes behavior.
         </p>
         <h2 className="text-lg font-semibold text-foreground pt-2">The bottom line</h2>
         <p>
-          MAP enforcement isn't glamorous, but it's one of the most important things you can do to protect your brand's long-term value on Amazon. Brands that let violations slide end up in a race to the bottom that's painful to recover from. Brands that enforce consistently build a healthier, more predictable sales channel — and their wholesale partners appreciate it too.
+          MAP enforcement isn't glamorous, but it's one of the most important things you can do to protect your brand's long-term value in wholesale. Brands that enforce consistently build healthier, more predictable channel relationships — and their distribution partners appreciate it because it protects their margins too.
         </p>
       </div>
     ),
   },
 
-  "fba-storage-fees": {
-    category: "FBA Operations",
+  "inventory-carrying-costs": {
+    category: "Wholesale Operations",
     date: "March 10, 2026",
     readTime: "6 min read",
-    title: "Understanding FBA Storage Fees and How to Minimize Them",
+    title: "Understanding Inventory Carrying Costs and How to Minimize Them",
     content: (
       <div className="space-y-5 text-sm leading-relaxed text-muted-foreground">
         <p>
-          FBA storage fees are one of those costs that can sneak up on you. You're focused on sales, things are moving, and then you get your monthly fee breakdown and there's a line item that makes you do a double take. It happens to a lot of sellers, and it's almost always avoidable with a bit more attention to inventory planning.
+          Inventory carrying costs are one of those expenses that can quietly erode your margins if you're not watching them. You're focused on sales, things are moving, and then you look at the numbers and realize a meaningful chunk of your gross profit is tied up in the cost of holding stock. It happens to a lot of brands and distributors, and it's almost always addressable with better inventory discipline.
         </p>
         <p>
-          Here's how Amazon's storage fees actually work, and what we do in practice to keep them under control.
+          Here's how carrying costs actually work, and what we do in practice to keep them under control.
         </p>
-        <h2 className="text-lg font-semibold text-foreground pt-2">Monthly storage fees</h2>
+        <h2 className="text-lg font-semibold text-foreground pt-2">What's actually included in carrying costs</h2>
         <p>
-          Amazon charges a monthly fee based on the cubic footage your inventory occupies in their fulfillment centers. The rate changes by time of year — it's lower from January through September, and significantly higher from October through December because Amazon is protecting warehouse space heading into Q4.
-        </p>
-        <p>
-          The category of your product matters too. Standard-size items are charged at a lower rate than oversized, and there are different tiers within each. If you're not sure how your products are classified, it's worth double-checking in Seller Central — misclassification happens and it can affect your fees.
-        </p>
-        <h2 className="text-lg font-semibold text-foreground pt-2">Aged inventory surcharges</h2>
-        <p>
-          This is where things get expensive. Amazon charges an additional surcharge on inventory that's been sitting in their warehouses for more than 181 days. The longer it sits, the higher the fee per unit. Products that have been there over a year get hit the hardest.
+          Most people think of carrying costs as just warehousing fees, but it's a broader set of expenses. The main components are storage and warehousing, capital cost (the money tied up in inventory that could be deployed elsewhere), insurance, shrinkage and damage, and the cost of obsolescence for products that age out before they sell.
         </p>
         <p>
-          The tricky part is that aged inventory fees aren't always easy to spot until they've already accumulated. We check the FBA Inventory Age report regularly — it's one of the most useful tools in Seller Central for catching slow-moving SKUs before they become a real problem.
+          A rough industry benchmark is that carrying costs run somewhere between 20–30% of inventory value annually. That means if you're holding $500,000 in inventory, you're spending $100,000–$150,000 per year just to hold it. That number changes how you think about how much stock to keep on hand.
         </p>
-        <h2 className="text-lg font-semibold text-foreground pt-2">What we actually do to keep fees low</h2>
+        <h2 className="text-lg font-semibold text-foreground pt-2">Slow-moving SKUs are where the damage happens</h2>
         <p>
-          The single most effective thing is right-sizing your shipments. Sending three months of inventory because it saves on shipping might look efficient, but if sales slow down, you're paying storage fees on two months of dead stock. We try to keep inventory turns healthy — typically targeting 60–90 days of cover for most SKUs.
-        </p>
-        <p>
-          For slower-moving products, we run targeted promotions or adjust pricing to accelerate sell-through before the aged inventory clock runs out. Sometimes taking a short-term margin hit is much cheaper than paying surcharges month after month.
+          Fast-moving inventory doesn't accumulate meaningful carrying costs because it turns before they add up. The problem is slow-moving SKUs — products sitting in the warehouse for 90, 120, 180 days or more. Each month they sit, you're paying to store them while also tying up capital that could fund faster-moving stock.
         </p>
         <p>
-          When a SKU is truly stuck, inventory removal is an option. Amazon will send your products back to you (or dispose of them) for a per-unit fee. It's not free, but it's usually cheaper than letting aged inventory fees compound. We treat removal as a last resort but don't hesitate to use it when the math makes sense.
+          We track inventory age by SKU on a regular cadence. Anything approaching 90 days without movement gets flagged for review. Often the right move is a price adjustment to accelerate sell-through — taking a smaller margin hit now beats paying carrying costs month after month.
         </p>
-        <h2 className="text-lg font-semibold text-foreground pt-2">One thing a lot of sellers overlook</h2>
+        <h2 className="text-lg font-semibold text-foreground pt-2">Right-sizing purchase orders</h2>
         <p>
-          Amazon's inventory performance metrics — specifically the Inventory Performance Index (IPI) — affect how much storage space you're allowed to use. If your IPI drops below a certain threshold, Amazon limits how much inventory you can send in. That creates a real operational headache during high-demand seasons.
+          The single most effective lever is purchasing discipline. Larger POs typically get better per-unit pricing, but that discount can disappear entirely if slow turns mean you're carrying the inventory for six months. We model the real landed cost — unit price plus carrying cost for the expected turn time — when evaluating order quantities.
         </p>
         <p>
-          Keeping your IPI healthy by managing excess inventory, reducing stranded listings, and maintaining solid in-stock rates is worth the effort. It gives you more flexibility when you need it most.
+          For seasonal products or new SKUs without established velocity data, we tend to buy conservatively on the first few orders and build up from there once we have confidence in the turn rate. It's better to miss a few sales than to be sitting on dead stock after the season ends.
+        </p>
+        <h2 className="text-lg font-semibold text-foreground pt-2">Reorder timing matters as much as quantity</h2>
+        <p>
+          Inventory optimization isn't just about how much you buy — it's about when. Reordering too early means you're carrying excess stock unnecessarily. Reordering too late means stockouts and lost sales. Building accurate lead time and velocity data by SKU is what makes good reorder timing possible.
+        </p>
+        <p>
+          We set reorder points based on lead time plus a safety stock buffer sized to the variability in both demand and supplier lead times. It's not complicated, but it requires actually maintaining that data rather than ordering on gut feel.
         </p>
       </div>
     ),
   },
 
-  "brand-registry": {
+  "brand-protection-wholesale": {
     category: "Brand Protection",
     date: "February 28, 2026",
     readTime: "7 min read",
-    title: "Amazon Brand Registry: What It Is and Why Every Seller Should Enroll",
+    title: "Protecting Your Brand in Wholesale: Authorized Distributors and Gray Market Risk",
     content: (
       <div className="space-y-5 text-sm leading-relaxed text-muted-foreground">
         <p>
-          If you own a brand and you're selling on Amazon — or if you have any wholesale partners who are — Brand Registry is probably the most useful thing Amazon offers that a surprising number of brands still haven't signed up for. It's free, it doesn't take that long to set up, and the protections it gives you are genuinely valuable.
+          One of the less-discussed risks of wholesale distribution is what happens to your product after it leaves your hands. You sell to an authorized distributor. They sell to a retailer. That retailer sells to someone else. Somewhere in that chain, product can end up in unauthorized hands — resold through channels you never agreed to, at prices that undercut your MAP policy, damaging your brand's reputation in ways that are hard to trace back.
         </p>
         <p>
-          Here's a plain-English breakdown of what Brand Registry actually does and what you get out of it.
+          This is the gray market problem, and it's more common than most brands expect. Here's how it happens and what you can do about it.
         </p>
-        <h2 className="text-lg font-semibold text-foreground pt-2">What Brand Registry is</h2>
+        <h2 className="text-lg font-semibold text-foreground pt-2">How gray market product gets into circulation</h2>
         <p>
-          Brand Registry is Amazon's program for verified brand owners. To enroll, you need an active registered trademark (or a pending application in some cases). Amazon uses this to confirm that you actually own the brand you're claiming, which is how they're able to give you more control over your listings.
-        </p>
-        <p>
-          Once you're enrolled, your brand gets tied to a set of ASINs on Amazon. You become the authority on what those listings look like — the title, images, description, and bullet points. Unauthorized sellers can still list against your ASINs, but they lose the ability to freely edit your listing content.
-        </p>
-        <h2 className="text-lg font-semibold text-foreground pt-2">The reporting tools are actually useful</h2>
-        <p>
-          Brand Registry gives you access to a violation reporting dashboard where you can flag counterfeit products, listings using your brand name without authorization, and other IP violations. Amazon's response time isn't always lightning fast, but having a direct reporting channel is a lot better than going through generic Seller Support.
+          Gray market product isn't counterfeit — it's genuine product sold through unauthorized channels. It typically enters the market through a few common paths: a distributor sells excess inventory to a liquidator, an authorized retailer offloads slow-moving stock, or product from a foreign market gets diverted into the domestic channel.
         </p>
         <p>
-          There's also a tool called Transparency that lets you add unique codes to individual product units. Customers can scan those codes to verify authenticity. It's mostly relevant for brands dealing with counterfeiting at scale, but it's good to know it exists.
+          Once it's out there, it's hard to trace and even harder to pull back. The seller may not even know the product came from a problematic source. But from a brand perspective, it doesn't matter — the damage to pricing integrity and channel relationships is the same.
         </p>
-        <h2 className="text-lg font-semibold text-foreground pt-2">A+ Content</h2>
+        <h2 className="text-lg font-semibold text-foreground pt-2">Why it matters more than you might think</h2>
         <p>
-          This is the one that directly affects conversion rates. Brand Registry unlocks A+ Content (formerly Enhanced Brand Content), which lets you replace the plain text product description with a richer layout — multiple images, comparison charts, custom headers, feature callouts. Done well, it makes your listing look significantly more polished than a competitor without it.
-        </p>
-        <p>
-          The data on A+ Content is pretty consistent: it lifts conversion rates, often meaningfully. If you're already enrolled in Brand Registry and you haven't set up A+ Content yet, it should be near the top of your list.
-        </p>
-        <h2 className="text-lg font-semibold text-foreground pt-2">Brand Analytics</h2>
-        <p>
-          Another underused benefit. Brand Analytics gives you access to search term data — what people are actually typing into Amazon to find products like yours. You can see search frequency rankings, click share, and conversion share for specific keywords. It's the kind of competitive intelligence that's hard to get anywhere else, and it's included with Brand Registry at no extra cost.
-        </p>
-        <h2 className="text-lg font-semibold text-foreground pt-2">How to get enrolled</h2>
-        <p>
-          You'll need a registered trademark in the country where you're enrolling. For the US, that means a USPTO registration or a pending application through Amazon's IP Accelerator program. Head to brandservices.amazon.com, submit your trademark information, and Amazon will verify it before approving your enrollment.
+          The pricing impact is obvious — gray market product tends to show up at discounted prices that undercut your MAP and put pressure on your authorized sellers. But the reputational risk is often worse. Product that's been improperly stored or handled can arrive at the customer in poor condition. If customers associate your brand with that experience, the damage is yours to absorb even though you had nothing to do with it.
         </p>
         <p>
-          The process is straightforward but can take a few weeks depending on verification timing. If you don't have a trademark yet, it's worth starting that process — the protections Brand Registry provides are worth it, and it only gets more valuable as your Amazon presence grows.
+          Authorized retail partners also notice. A major retailer who has a wholesale account with you doesn't want to compete against product of unknown origin selling at prices they can't match. These situations erode trust and can cost you meaningful shelf placement.
+        </p>
+        <h2 className="text-lg font-semibold text-foreground pt-2">The most effective defenses</h2>
+        <p>
+          Tight distribution is the foundation. Every additional distributor or reseller in your chain is another potential source of leakage. Working with a small number of accountable partners — who agree in writing to flow your brand policies to their downstream buyers — significantly reduces gray market risk.
+        </p>
+        <p>
+          Serialization and lot coding let you trace product back to the original shipment when violations occur. If you can identify which shipment a gray market unit came from, you can identify which distributor let it leak. That accountability changes behavior.
+        </p>
+        <p>
+          Selective distribution agreements are another tool. Instead of selling wholesale to anyone who wants to buy, you define exactly which types of accounts are authorized to carry your brand and what channels they're permitted to sell through. More restrictive, but much easier to enforce.
+        </p>
+        <h2 className="text-lg font-semibold text-foreground pt-2">What to do when you find a violation</h2>
+        <p>
+          Document it thoroughly — screenshots, purchase records if you can get them, timestamps. Then work backward through your distribution chain to identify the source. Send a formal cease-and-desist to the unauthorized seller and follow up if they don't comply. For repeat offenders, cutting off the supply source that's feeding them is usually more effective than chasing individual violations.
         </p>
       </div>
     ),
@@ -160,140 +153,140 @@ const posts: Record<string, Post> = {
     category: "Wholesale Partnerships",
     date: "February 14, 2026",
     readTime: "5 min read",
-    title: "What to Look for in an Amazon Wholesale Distribution Partner",
+    title: "What to Look for in a B2B Wholesale Distribution Partner",
     content: (
       <div className="space-y-5 text-sm leading-relaxed text-muted-foreground">
         <p>
-          Handing off your Amazon distribution to a wholesale partner is a significant decision. Done right, it frees you up to focus on your product and brand while someone who knows the platform handles the operational complexity. Done wrong, it can create pricing chaos, listing problems, and brand damage that takes months to undo.
+          Choosing a wholesale distribution partner is one of the more consequential decisions a brand makes. Done right, it opens up buyer relationships and retail channels that would take years to build independently. Done wrong, it creates pricing problems, channel conflicts, and brand damage that can take even longer to fix.
         </p>
         <p>
-          We've seen both outcomes. Here's what we think actually matters when evaluating a potential distribution partner.
+          We've seen both outcomes. Here's what we think actually matters when evaluating a potential B2B distribution partner.
         </p>
-        <h2 className="text-lg font-semibold text-foreground pt-2">Are they actually authorized?</h2>
+        <h2 className="text-lg font-semibold text-foreground pt-2">Do they have real buyer relationships?</h2>
         <p>
-          This sounds basic, but it's the most important thing. An authorized distributor has a direct purchasing relationship with you or your approved supply chain. They're not buying your product from a liquidation pallet or a third-party marketplace and relisting it on Amazon.
-        </p>
-        <p>
-          Ask for documentation. Ask how they source inventory. If the answer is vague or they can't show you a clear chain of custody, that's a red flag. Unauthorized sellers operating as if they're legitimate distributors are more common than you'd expect, and they create real problems for brand control.
-        </p>
-        <h2 className="text-lg font-semibold text-foreground pt-2">Do they have genuine Amazon experience?</h2>
-        <p>
-          Amazon expertise isn't something you pick up overnight. The platform has its own rules, quirks, and best practices that take time to really understand. Ask about their track record: how many brands do they work with, what categories, what results have they actually driven?
+          A distributor's value is fundamentally tied to who they can sell to. Ask specifically about their buyer network — what types of retailers, what channels, what geographies. A good distributor can name accounts and describe the relationships. Vague answers about "broad retail coverage" aren't a good sign.
         </p>
         <p>
-          Specifics matter here. "We've grown revenue for our partners" is easy to say. Asking about their approach to listing optimization, how they handle Buy Box competition, or what their process is for managing aged inventory will tell you a lot more.
+          Also ask about buyer concentration. If 80% of their volume goes through two accounts, that's a risk to understand. Losing one of those accounts means a significant drop in your distribution overnight.
+        </p>
+        <h2 className="text-lg font-semibold text-foreground pt-2">Are they actually authorized and compliant?</h2>
+        <p>
+          An authorized distributor has a direct, documented purchasing relationship with you. They're not buying your product through liquidation channels, secondary markets, or unauthorized sources. Ask how they source inventory and what their compliance posture looks like. If the answer is vague, that's a red flag.
+        </p>
+        <p>
+          This matters for more than just principle — unauthorized product in your distribution channel creates legal exposure, pricing chaos, and the exact brand damage you're trying to avoid by working with a distributor in the first place.
         </p>
         <h2 className="text-lg font-semibold text-foreground pt-2">Will they respect your MAP policy?</h2>
         <p>
-          A distribution partner who undercuts your MAP — even once — sends a signal to the rest of the marketplace. Ask upfront how they handle MAP compliance and what their track record looks like. If they're evasive about it or treat it as a suggestion rather than a real commitment, walk away.
+          A distribution partner who undercuts your MAP — or who sells to buyers who do — sends a signal to every other account in your channel. Ask upfront how they handle MAP compliance, what their track record looks like, and how they flow your brand policies to their downstream buyers. Treat evasiveness as a dealbreaker.
         </p>
         <h2 className="text-lg font-semibold text-foreground pt-2">What does reporting look like?</h2>
         <p>
-          You should be able to see what's happening with your brand on Amazon without having to chase someone down for updates. A good distribution partner gives you regular, clear reporting on sales volume, inventory levels, and listing performance. Ask to see a sample report or talk through what data they provide and how often.
+          You should be able to see what's happening with your brand in the channel without having to chase anyone down. A good distribution partner provides regular, clear reporting on sales volume, inventory levels, and account activity. Ask to see a sample report or talk through what data they share and on what cadence.
         </p>
         <p>
-          Transparency isn't just nice to have — it's how you catch problems early and make good decisions about your inventory and pricing strategy.
+          Transparency isn't just a nice-to-have — it's how you catch problems early and make good decisions about inventory, pricing, and channel strategy.
         </p>
         <h2 className="text-lg font-semibold text-foreground pt-2">Are the contract terms fair?</h2>
         <p>
-          Read the agreement carefully. Pay attention to exclusivity terms, termination clauses, and what happens to existing inventory if the partnership ends. Some distributors lock brands into arrangements that are very hard to exit if things aren't working out.
+          Read the agreement carefully. Pay close attention to exclusivity terms, termination clauses, and what happens to inventory if the partnership ends. Some distributors lock brands into arrangements that are very difficult to exit cleanly.
         </p>
         <p>
-          A partner who's confident in what they're offering shouldn't need onerous contract terms to keep you. Fair terms on both sides are a good sign.
+          A partner who's confident in what they deliver shouldn't need onerous terms to keep you. Clean, balanced contract terms are a good indicator of how the relationship will actually operate.
         </p>
       </div>
     ),
   },
 
-  "a-plus-content": {
-    category: "Amazon Strategy",
+  "multi-channel-distribution": {
+    category: "Distribution Strategy",
     date: "January 30, 2026",
     readTime: "6 min read",
-    title: "A+ Content: How Enhanced Listings Drive Higher Conversion Rates",
+    title: "Multi-Channel Distribution: How to Reach More Buyers Without Losing Control",
     content: (
       <div className="space-y-5 text-sm leading-relaxed text-muted-foreground">
         <p>
-          There's a version of an Amazon listing that's just a product title, five bullet points, and a wall of plain text where the description should be. And then there's a version with lifestyle imagery, a clear feature breakdown, a comparison chart showing how this product stacks up, and a layout that actually looks like someone put thought into it.
+          Expanding your distribution reach is one of the most effective ways to grow wholesale volume — but it's also one of the fastest ways to create channel conflict if it's not done carefully. More buyers means more revenue potential, but it also means more complexity, more MAP enforcement challenges, and more opportunities for your brand positioning to drift.
         </p>
         <p>
-          That second version is what A+ Content makes possible. And the conversion difference between a basic listing and a well-executed A+ listing is real — Amazon's own data has consistently shown conversion rate lifts in the range of 3–10% on average, and we've seen bigger jumps than that in competitive categories.
+          Here's how to think about scaling distribution across multiple channels without losing control of the things that matter most.
         </p>
-        <h2 className="text-lg font-semibold text-foreground pt-2">What A+ Content actually is</h2>
+        <h2 className="text-lg font-semibold text-foreground pt-2">Define your channel strategy before you expand</h2>
         <p>
-          A+ Content replaces the standard product description section on your Amazon listing with a custom layout that you build using Amazon's module system. You get options like full-width image banners, side-by-side image and text blocks, product comparison tables, and feature highlight sections with icons.
-        </p>
-        <p>
-          It's available to sellers enrolled in Amazon Brand Registry. If you're not enrolled, that's the first step — there's no way to access A+ Content without it.
-        </p>
-        <h2 className="text-lg font-semibold text-foreground pt-2">What makes it actually work</h2>
-        <p>
-          The biggest mistake brands make with A+ Content is treating it like a brochure. They load it up with marketing language and brand story copy, and end up with something that looks polished but doesn't actually help the customer make a decision.
+          Before adding new distribution channels, be explicit about what each channel is for and how they relate to each other. Which channels are your primary revenue drivers? Which are strategic for brand visibility? Which are secondary or opportunistic?
         </p>
         <p>
-          The content that converts well does a few specific things. It answers the questions a customer would have at the point of purchase — what exactly is this, how does it work, what makes it better than the alternatives, and is it right for my situation. It uses real images of the product in use, not just white-background shots. And it's organized so that someone skimming it can pull out the key points in a few seconds.
+          Getting this clarity upfront makes it much easier to set appropriate pricing tiers, define account eligibility, and manage conflicts when they arise. Without it, you end up making channel decisions reactively and the policy gaps accumulate.
         </p>
-        <h2 className="text-lg font-semibold text-foreground pt-2">Comparison charts are underrated</h2>
+        <h2 className="text-lg font-semibold text-foreground pt-2">Pricing architecture is what holds multi-channel together</h2>
         <p>
-          If you sell multiple products or SKUs within a category, the comparison module is one of the highest-leverage pieces of A+ Content you can create. It keeps customers in your brand's ecosystem when they're deciding between options, rather than sending them to a competitor's listing.
+          A well-designed wholesale pricing architecture — MSRP, MAP, distributor cost, key account pricing — is the backbone of a healthy multi-channel strategy. Every buyer in your channel needs to understand where they sit in that structure and what the rules are for their tier.
         </p>
         <p>
-          It also signals to customers that this is a real brand with a real product line — not just a single item thrown up by a random seller. That trust factor is subtle but it matters.
+          The most common failure mode is inconsistent pricing across channels. One buyer gets a better price than another, word gets around, and suddenly everyone is asking for the exception. Building a consistent, defensible pricing structure from the start is far easier than trying to fix one after the fact.
         </p>
-        <h2 className="text-lg font-semibold text-foreground pt-2">Premium A+ Content</h2>
+        <h2 className="text-lg font-semibold text-foreground pt-2">Manage channel conflict proactively</h2>
         <p>
-          Brands that maintain a high Brand Registry score can unlock Premium A+ Content, which includes additional module types like video, interactive hotspots, and larger image carousels. Not every brand will hit the threshold for this, but it's worth knowing it exists as your presence on Amazon grows.
+          Channel conflict — when different buyers compete against each other in the same market — is inevitable at a certain scale, but it can be managed. The keys are geographic segmentation, account type separation, and clear rules about where each channel can sell.
         </p>
-        <h2 className="text-lg font-semibold text-foreground pt-2">The practical takeaway</h2>
         <p>
-          If you're Brand Registry enrolled and your listings still have plain text descriptions, you're leaving conversion rate on the table. It doesn't have to be complicated — a few well-chosen modules with good images and clear copy will outperform a fancy but unfocused layout every time. Start with your top-selling ASINs and build from there.
+          If you have a regional distributor in the Pacific Northwest, they probably shouldn't be selling to the same accounts as your national distributor. Clear territory definitions and account ownership rules prevent the most common forms of conflict before they start.
+        </p>
+        <h2 className="text-lg font-semibold text-foreground pt-2">Your distributors are part of your brand team</h2>
+        <p>
+          A common mistake is treating distributors as transactional — they buy product, that's the relationship. The brands that scale distribution well treat their key distributors as genuine channel partners: sharing sales data, co-developing market strategy, and giving them the tools and support to sell more effectively.
+        </p>
+        <p>
+          Distributors who feel invested in a brand's success enforce MAP more consistently, develop new accounts more aggressively, and stick with the brand through the inevitable rough patches. That relationship quality is worth investing in.
         </p>
       </div>
     ),
   },
 
-  "fba-vs-fbm": {
-    category: "FBA Operations",
+  "direct-vs-wholesale": {
+    category: "Wholesale Operations",
     date: "January 15, 2026",
     readTime: "8 min read",
-    title: "FBA vs. FBM: Choosing the Right Fulfillment Model for Your Brand",
+    title: "Direct vs. Wholesale Distribution: Choosing the Right Model for Your Brand",
     content: (
       <div className="space-y-5 text-sm leading-relaxed text-muted-foreground">
         <p>
-          Most conversations about FBA vs. FBM frame it as an either/or decision, but the reality is that the right answer depends heavily on your product, your margins, and what you're trying to accomplish. A lot of experienced Amazon sellers actually use both simultaneously — FBA for their core SKUs and FBM as a backup or for specific situations where it makes more sense.
+          Most brands don't start with a clean choice between direct and wholesale — they end up with some mix of both as they grow. But understanding the real tradeoffs between the two models is important if you're making deliberate decisions about how to build your distribution strategy.
         </p>
         <p>
-          Here's a realistic breakdown of both models and how to think about which one fits your situation.
+          Here's a realistic look at both approaches and how to think about which fits your brand at its current stage.
         </p>
-        <h2 className="text-lg font-semibold text-foreground pt-2">What FBA actually means for your business</h2>
+        <h2 className="text-lg font-semibold text-foreground pt-2">What selling direct actually gives you</h2>
         <p>
-          With Fulfillment by Amazon, you ship your inventory to Amazon's warehouses and they take it from there — picking, packing, shipping, handling returns, and managing customer service for order-related issues. Your listings become Prime-eligible, which is a significant conversion advantage. A large portion of Amazon's customer base filters by Prime eligibility by default.
-        </p>
-        <p>
-          The cost is real though. You're paying FBA fulfillment fees per unit, monthly storage fees, and potentially aged inventory surcharges if product doesn't move fast enough. For small, low-cost items with thin margins, FBA fees can eat into profitability in a way that's hard to recover from. For larger, faster-moving products with stronger margins, FBA typically makes a lot of sense.
-        </p>
-        <h2 className="text-lg font-semibold text-foreground pt-2">FBM is more flexible than people give it credit for</h2>
-        <p>
-          With Fulfilled by Merchant, you (or your fulfillment partner) handle all shipping and customer service directly. You don't pay Amazon's fulfillment fees, and you have more control over packaging, delivery speed, and the customer experience.
+          Selling direct — whether through your own website, direct-to-retail, or your own sales team — gives you maximum control. You set the price, you own the customer relationship, and you capture the full retail margin rather than sharing it with a distribution layer.
         </p>
         <p>
-          The obvious downside is that you lose automatic Prime eligibility. There's a workaround — Seller Fulfilled Prime — but it comes with strict performance requirements that aren't easy to maintain without a serious fulfillment operation. For most brands, FBM without SFP means competing against Prime-badged listings, which is a real disadvantage in most categories.
+          The tradeoff is that everything costs more. You're building and funding your own sales operation, logistics infrastructure, and customer service capability. For a brand without established volume or capital, that overhead is a real burden. And without existing buyer relationships, building a meaningful direct retail channel takes time — often years.
+        </p>
+        <h2 className="text-lg font-semibold text-foreground pt-2">What wholesale distribution actually gives you</h2>
+        <p>
+          A good wholesale distribution partner brings buyer relationships you don't have and operational infrastructure you'd otherwise have to build. They can open doors to retail accounts that would take a direct sales team years to develop, and they handle the complexity of fulfilling B2B orders at scale.
         </p>
         <p>
-          That said, FBM works well for heavy or oversized products where FBA fulfillment fees are disproportionately high. It also works for made-to-order or customized products that don't fit Amazon's standardized fulfillment model. And it's a practical backup when FBA inventory runs out — having FBM listings live means you can still make sales while your next shipment is in transit to Amazon.
+          The tradeoff is margin — you're selling at wholesale cost rather than retail price, which means giving up a portion of the revenue per unit. You also give up some control over how your brand is presented and at what price, which is why MAP policies and distribution agreements matter so much.
         </p>
-        <h2 className="text-lg font-semibold text-foreground pt-2">The numbers that actually matter</h2>
+        <h2 className="text-lg font-semibold text-foreground pt-2">The unit economics comparison</h2>
         <p>
-          The clearest way to compare them is to run the actual unit economics side by side. Take your product's selling price, subtract Amazon's referral fee (which applies to both models), and then compare the fulfillment cost for each path.
+          The right way to compare the two models is on net margin after all costs — not gross margin on the transaction. Direct sales look better on a per-unit basis until you account for the cost of the sales team, marketing spend, logistics, and customer service required to drive them.
         </p>
         <p>
-          For FBA, that's the per-unit fulfillment fee plus your storage cost allocation. For FBM, it's your actual shipping cost plus the labor or 3PL cost to pick and pack. Don't forget to account for the conversion rate difference — FBA's Prime badge typically drives higher conversion, which has real revenue implications even if the per-unit fulfillment cost is higher.
+          Wholesale looks worse on a per-unit basis until you account for the volume it enables and the fixed costs you're not carrying. A brand doing $2M through wholesale at 40% gross margin may be generating more total profit than one doing $1.5M direct at 60% gross margin, once the overhead of the direct operation is factored in.
+        </p>
+        <h2 className="text-lg font-semibold text-foreground pt-2">Most brands end up using both</h2>
+        <p>
+          The cleanest answer is usually not either/or. Direct-to-consumer captures full margin on a portion of volume and gives you a direct customer relationship for brand building. Wholesale distribution scales volume efficiently by leveraging buyer networks you don't have to build yourself.
+        </p>
+        <p>
+          The key is being deliberate about which channels you prioritize and making sure your pricing architecture keeps them from competing against each other. Brands that let their wholesale and direct channels undercut each other end up with the worst of both worlds — channel conflict without the benefits of either model working cleanly.
         </p>
         <h2 className="text-lg font-semibold text-foreground pt-2">Our general take</h2>
         <p>
-          For most consumer products in the $15–$150 range, FBA is the right default. The Prime badge, the logistics simplicity, and the Buy Box advantage it provides are hard to replicate through FBM. Where FBM makes sense to layer in is for products with dimensions or weights that make FBA fees punishing, or as a safety net for stockout scenarios.
-        </p>
-        <p>
-          If you're early in your Amazon journey and trying to keep things simple, start with FBA for your core SKUs and get the fundamentals right before adding complexity. If you're at a point where margins are under pressure, it's worth doing the math on specific SKUs — there's no rule that says everything has to be handled the same way.
+          For most consumer product brands trying to scale, wholesale distribution is the faster path to meaningful volume. Direct sales work well as a complement — particularly for building brand equity and capturing higher-margin revenue on a portion of your business — but building a direct channel first and wholesale second is often the harder route. The brands that grow fastest usually find a distribution partner early and use that scale to fund the direct operation over time.
         </p>
       </div>
     ),
@@ -301,8 +294,8 @@ const posts: Record<string, Post> = {
 };
 
 const categoryColors: Record<string, string> = {
-  "Amazon Strategy": "bg-blue-50 text-blue-600",
-  "FBA Operations": "bg-green-50 text-green-600",
+  "Distribution Strategy": "bg-blue-50 text-blue-600",
+  "Wholesale Operations": "bg-green-50 text-green-600",
   "Brand Protection": "bg-purple-50 text-purple-600",
   "Wholesale Partnerships": "bg-orange-50 text-orange-600",
 };
