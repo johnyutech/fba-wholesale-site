@@ -115,8 +115,8 @@ export default function Careers() {
             <p className="font-semibold mb-1">Interested in joining the team?</p>
             <p className="text-sm text-muted-foreground mb-4">
               Send your resume and a brief note about the role you're interested in to{" "}
-              <a href="mailto:john.yu@apexdistribution.co" className="text-primary underline">
-                john.yu@apexdistribution.co
+              <a href="mailto:sales@apexdistribution.co" className="text-primary underline">
+                sales@apexdistribution.co
               </a>
             </p>
             <Button className="btn-primary" onClick={() => navigate("/contact")}>

@@ -79,7 +79,7 @@ const faqs = [
       },
       {
         q: "Who do I contact if I have a question or issue?",
-        a: "All partner inquiries are handled by our team directly. You can reach us at john.yu@apexdistribution.co or by submitting a message through our contact page. We typically respond within 1–2 business days.",
+        a: "All partner inquiries are handled by our team directly. You can reach us at sales@apexdistribution.co or by submitting a message through our contact page. We typically respond within 1–2 business days.",
       },
       {
         q: "Can I see distribution performance in real time?",

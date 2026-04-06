@@ -109,7 +109,7 @@ export default function Privacy() {
                 <li><strong>Deletion:</strong> Request deletion of your personal data</li>
                 <li><strong>Opt-out:</strong> Opt out of any future communications from us</li>
               </ul>
-              <p className="mt-2">To exercise any of these rights, contact us at <a href="mailto:john.yu@apexdistribution.co" className="text-primary underline">john.yu@apexdistribution.co</a>.</p>
+              <p className="mt-2">To exercise any of these rights, contact us at <a href="mailto:sales@apexdistribution.co" className="text-primary underline">sales@apexdistribution.co</a>.</p>
             </section>
 
             <section>
@@ -131,7 +131,7 @@ export default function Privacy() {
               <p>If you have questions or concerns about this Privacy Policy, please contact us at:</p>
               <div className="mt-2 space-y-1">
                 <p><strong>Apex Trade Distribution</strong></p>
-                <p>Email: <a href="mailto:john.yu@apexdistribution.co" className="text-primary underline">john.yu@apexdistribution.co</a></p>
+                <p>Email: <a href="mailto:sales@apexdistribution.co" className="text-primary underline">sales@apexdistribution.co</a></p>
               </div>
             </section>
 

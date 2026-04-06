@@ -85,8 +85,8 @@ export default function Support() {
               </div>
               <div>
                 <p className="font-semibold">Email Support</p>
-                <a href="mailto:john.yu@apexdistribution.co" className="text-sm text-primary underline">
-                  john.yu@apexdistribution.co
+                <a href="mailto:sales@apexdistribution.co" className="text-sm text-primary underline">
+                  sales@apexdistribution.co
                 </a>
                 <div className="flex items-center gap-1.5 mt-1 text-xs text-muted-foreground">
                   <Clock className="w-3.5 h-3.5" />

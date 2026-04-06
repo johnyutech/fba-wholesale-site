@@ -23,7 +23,7 @@ export default function Contact() {
 
     if (!serviceId || !templateId || !publicKey) {
       setErrorMsg(
-        "Email service is not configured yet. Please contact us directly at john.yu@apexdistribution.co"
+        "Email service is not configured yet. Please contact us directly at sales@apexdistribution.co"
       );
       setStatus("error");
       return;
@@ -35,7 +35,7 @@ export default function Contact() {
       setStatus("success");
     } catch (err) {
       console.error(err);
-      setErrorMsg("Something went wrong. Please try again or email us directly at john.yu@apexdistribution.co");
+      setErrorMsg("Something went wrong. Please try again or email us directly at sales@apexdistribution.co");
       setStatus("error");
     }
   }
@@ -87,7 +87,7 @@ export default function Contact() {
 
               <form ref={formRef} onSubmit={handleSubmit} className="space-y-5">
                 {/* Hidden recipient field for EmailJS template */}
-                <input type="hidden" name="to_email" value="john.yu@apexdistribution.co" />
+                <input type="hidden" name="to_email" value="sales@apexdistribution.co" />
 
                 <div className="grid grid-cols-2 gap-4">
                   <div className="space-y-1">

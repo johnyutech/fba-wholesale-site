@@ -146,7 +146,7 @@ export default function Terms() {
               <p>For questions regarding these Terms of Service, please contact us at:</p>
               <div className="mt-2 space-y-1">
                 <p><strong>Apex Trade Distribution</strong></p>
-                <p>Email: <a href="mailto:john.yu@apexdistribution.co" className="text-primary underline">john.yu@apexdistribution.co</a></p>
+                <p>Email: <a href="mailto:sales@apexdistribution.co" className="text-primary underline">sales@apexdistribution.co</a></p>
               </div>
             </section>
 
