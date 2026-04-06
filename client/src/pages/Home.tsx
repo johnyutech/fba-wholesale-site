@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Zap, Users, TrendingUp } from "lucide-react";
+import { ArrowRight, Zap, Users, TrendingUp, ShieldCheck, BadgeCheck, AlertTriangle, BookOpen } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useLocation } from "wouter";
 
@@ -236,6 +236,64 @@ export default function Home() {
             <p className="text-sm text-muted-foreground">
               Most brands are in active distribution within <span className="font-semibold text-foreground">5–10 business days</span> of signing.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Brand Protection Section */}
+      <section className="py-24 px-4 md:px-0 bg-white">
+        <div className="container">
+          <div className="grid md:grid-cols-2 gap-16 items-center">
+
+            {/* Left: Header + intro */}
+            <div>
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-blue-50 rounded-full border border-primary/20 mb-6">
+                <ShieldCheck className="w-4 h-4 text-primary" />
+                <span className="text-sm font-medium text-primary">Brand Protection</span>
+              </div>
+              <h2 className="text-4xl font-bold mb-4">Your Brand Integrity Is Non-Negotiable</h2>
+              <p className="text-muted-foreground leading-relaxed mb-6">
+                Every brand we carry is represented with the same standards we'd apply to our own. That means consistent pricing, clean distribution, and zero tolerance for practices that put your brand at risk.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                We take an active role in protecting the brands we partner with — not just complying with policies, but enforcing them.
+              </p>
+            </div>
+
+            {/* Right: Protection pillars */}
+            <div className="grid sm:grid-cols-2 gap-5">
+              {[
+                {
+                  icon: BadgeCheck,
+                  title: "MAP Compliance",
+                  description: "We honor your Minimum Advertised Price policy across every channel we sell through, and flow those terms to every buyer we work with.",
+                },
+                {
+                  icon: ShieldCheck,
+                  title: "Channel Compliance",
+                  description: "We only distribute through channels explicitly authorized under our partnership agreement — no gray market, no unauthorized resellers.",
+                },
+                {
+                  icon: BookOpen,
+                  title: "Listing Quality Standards",
+                  description: "Your products are represented with accurate specs, approved imagery, and brand-consistent copy. We never alter, repackage, or misrepresent what we carry.",
+                },
+                {
+                  icon: AlertTriangle,
+                  title: "Unauthorized Seller Monitoring",
+                  description: "We actively monitor for unauthorized sellers and MAP violations in your distribution channel and report them to you as part of standard operations.",
+                },
+              ].map((item, i) => (
+                <div key={i} className="rounded-xl border border-border p-5 hover:border-primary/40 hover:shadow-sm transition-all duration-200">
+                  <div className="w-9 h-9 rounded-lg bg-primary/10 flex items-center justify-center mb-3">
+                    <item.icon className="w-4 h-4 text-primary" />
+                  </div>
+                  <h3 className="font-semibold text-sm mb-1.5">{item.title}</h3>
+                  <p className="text-xs text-muted-foreground leading-relaxed">{item.description}</p>
+                </div>
+              ))}
+            </div>
+
           </div>
         </div>
       </section>
