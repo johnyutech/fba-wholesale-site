@@ -66,10 +66,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center pb-20">
             {/* Left: Content */}
             <div className="space-y-6">
-              <div className="inline-block px-4 py-2 bg-blue-50 rounded-full border border-primary/20">
-                <span className="text-sm font-medium text-primary">Trusted by 50+ Brand Partners</span>
-              </div>
-              <h1 className="text-5xl md:text-6xl font-bold leading-tight">
+<h1 className="text-5xl md:text-6xl font-bold leading-tight">
                 Wholesale Distribution for <span className="text-primary">Consumer Brands</span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg">
