@@ -106,7 +106,7 @@ export default function Contact() {
                 </div>
 
                 <form ref={formRef} onSubmit={handleSubmit} className="space-y-5">
-                  <input type="hidden" name="to_email" value="sales@apexdistribution.co" />
+                  <input type="hidden" name="to_email" value="john.yu@apexdistribution.co" />
 
                   <div className="grid grid-cols-2 gap-4">
                     <div className="space-y-1">
