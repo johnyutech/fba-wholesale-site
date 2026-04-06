@@ -63,7 +63,7 @@ export default function Privacy() {
               <p className="mb-2">We use the information you provide solely for legitimate business purposes, including:</p>
               <ul className="list-disc pl-6 space-y-1">
                 <li>Responding to your wholesale partnership inquiry</li>
-                <li>Evaluating brand fit for our Amazon FBA distribution network</li>
+                <li>Evaluating brand fit for our B2B wholesale distribution network</li>
                 <li>Communicating about potential or existing business relationships</li>
                 <li>Complying with legal obligations</li>
               </ul>
@@ -80,9 +80,9 @@ export default function Privacy() {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold mb-3">5. Amazon FBA and Wholesale Compliance</h2>
+              <h2 className="text-xl font-semibold mb-3">5. B2B Wholesale Distribution Compliance</h2>
               <p>
-                As an authorized wholesale distributor operating within Amazon's marketplace, we adhere to Amazon's seller policies, brand registry requirements, and anti-counterfeiting guidelines. Any brand or product information shared with us is treated as confidential and used solely for the purpose of evaluating and executing wholesale distribution agreements. We do not disclose brand-specific terms, pricing, or proprietary information to third parties.
+                As an authorized B2B wholesale distributor, we adhere to applicable trade regulations, brand distribution policies, and anti-counterfeiting requirements. Any brand or product information shared with us is treated as confidential and used solely for the purpose of evaluating and executing wholesale distribution agreements. We do not disclose brand-specific terms, pricing, or proprietary information to third parties.
               </p>
             </section>
 

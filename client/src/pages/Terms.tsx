@@ -46,14 +46,14 @@ export default function Terms() {
             <section>
               <h2 className="text-xl font-semibold mb-3">2. Nature of Services</h2>
               <p className="mb-2">
-                Apex Trade Distribution is an authorized wholesale distributor that partners with consumer brands to expand their presence on Amazon's marketplace through the Fulfillment by Amazon (FBA) program. Our services include:
+                Apex Trade Distribution is an authorized B2B wholesale distributor that partners with consumer brands to expand their reach through our retail buyer network. Our services include:
               </p>
               <ul className="list-disc pl-6 space-y-1">
                 <li>Wholesale purchasing of brand inventory at agreed-upon pricing</li>
-                <li>Storage, fulfillment, and logistics management via Amazon FBA</li>
-                <li>Listing optimization and marketplace management on Amazon</li>
-                <li>Brand protection and authorized seller compliance</li>
-                <li>Sales reporting and performance analytics</li>
+                <li>Warehousing, order fulfillment, and logistics management</li>
+                <li>Retail buyer account management and channel development</li>
+                <li>Brand protection and authorized distribution compliance</li>
+                <li>Sales reporting and channel performance analytics</li>
               </ul>
               <p className="mt-2">
                 All specific terms related to pricing, purchase volumes, exclusivity, and performance expectations are governed by individual wholesale agreements executed separately between Apex Trade Distribution and each brand partner.
@@ -63,29 +63,29 @@ export default function Terms() {
             <section>
               <h2 className="text-xl font-semibold mb-3">3. Authorized Reseller Status</h2>
               <p>
-                Apex Trade Distribution operates exclusively as an authorized reseller. We purchase inventory directly from brands or their authorized distributors and resell through legitimate wholesale channels. We do not engage in unauthorized, gray market, or counterfeit product sales. All products sold through our network are genuine, unaltered, and sourced through compliant supply chains in accordance with Amazon's policies and applicable law.
+                Apex Trade Distribution operates exclusively as an authorized wholesale distributor. We purchase inventory directly from brands or their authorized suppliers and distribute through our established retail buyer network. We do not engage in unauthorized, gray market, or counterfeit product sales. All products distributed through our network are genuine, unaltered, and sourced through compliant supply chains in accordance with applicable law and each brand's distribution policies.
               </p>
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold mb-3">4. Amazon Marketplace Compliance</h2>
-              <p className="mb-2">Both parties agree to operate in full compliance with Amazon's policies, including but not limited to:</p>
+              <h2 className="text-xl font-semibold mb-3">4. Wholesale Distribution Compliance</h2>
+              <p className="mb-2">Both parties agree to operate in full compliance with applicable wholesale distribution standards and brand policies, including but not limited to:</p>
               <ul className="list-disc pl-6 space-y-1">
-                <li>Amazon's Seller Code of Conduct</li>
-                <li>Amazon Brand Registry requirements</li>
-                <li>Amazon's Anti-Counterfeiting Policy</li>
-                <li>Amazon's Condition Guidelines for product listings</li>
+                <li>Brand-authorized distribution terms and channel restrictions</li>
                 <li>MAP (Minimum Advertised Price) policies where applicable</li>
+                <li>Product authenticity and anti-counterfeiting requirements</li>
+                <li>Applicable federal and state trade regulations</li>
+                <li>Retailer account terms and buyer agreements</li>
               </ul>
               <p className="mt-2">
-                Violation of Amazon policies by either party that results in account suspension, listing removal, or financial penalty shall be addressed through the individual partnership agreement between the parties.
+                Any compliance breach by either party that results in financial loss, channel conflict, or reputational harm shall be addressed through the individual partnership agreement between the parties.
               </p>
             </section>
 
             <section>
               <h2 className="text-xl font-semibold mb-3">5. Intellectual Property</h2>
               <p>
-                Brand partners retain full ownership of their trademarks, logos, product images, and all associated intellectual property. Apex Trade Distribution is granted a limited, non-exclusive license to use brand assets solely for the purpose of creating and managing product listings on Amazon and other approved sales channels. We will not sublicense, modify, or use brand assets outside the scope of the partnership without prior written consent.
+                Brand partners retain full ownership of their trademarks, logos, product images, and all associated intellectual property. Apex Trade Distribution is granted a limited, non-exclusive license to use brand assets solely for the purpose of representing and distributing products through our approved retail buyer network. We will not sublicense, modify, or use brand assets outside the scope of the partnership without prior written consent.
               </p>
               <p className="mt-2">
                 All content on the Apex Trade Distribution website, including but not limited to text, graphics, logos, and design elements, is the property of Apex Trade Distribution and may not be reproduced without written permission.
