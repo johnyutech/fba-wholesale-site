@@ -98,9 +98,9 @@ export default function About() {
                 "Authorized distributor status — no gray market, no counterfeit risk",
                 "Established retail buyer network across online and brick-and-mortar channels",
                 "MAP policy enforcement and brand protection",
-                "Transparent reporting and open communication",
+                "Monthly reports by the 5th — units, revenue, fill rate, inventory, MAP violations",
                 "Proven experience across health, food, home, and specialty categories",
-                "Reliable wholesale purchasing with consistent purchase order cadence",
+                "Purchase orders sized to 60–90 day turns, reorder triggered at 30-day supply",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3 text-sm text-muted-foreground">
                   <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-primary shrink-0" />

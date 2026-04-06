@@ -58,15 +58,15 @@ const faqs = [
       },
       {
         q: "Do you honor MAP (Minimum Advertised Price) policies?",
-        a: "Yes. We fully respect MAP policies set by brand partners and enforce them in our Amazon listings. Maintaining price integrity is important for brand health and long-term marketplace success.",
+        a: "Yes. MAP is documented in the partnership agreement and applied to every channel we sell through. We monitor advertised prices across active buyer accounts and flag violations within 48 hours of detection. Repeat violators are removed from our buyer network.",
       },
       {
         q: "What are the minimum order quantities?",
-        a: "Minimum order quantities (MOQs) vary depending on the product, category, and agreement terms. We discuss MOQs during the onboarding process and align on purchase order cadence based on sales velocity and inventory goals.",
+        a: "Opening orders typically start at a $500–$1,000 wholesale value minimum, depending on the product category. Ongoing purchase orders are sized to approximately 60–90 days of projected sell-through, based on actual velocity data from prior orders. We share the velocity data we're using so you can plan your supply accordingly.",
       },
       {
         q: "Who is responsible for warehousing and storage costs?",
-        a: "Storage and fulfillment costs are factored into our cost model. We actively manage inventory turnover to minimize holding costs and avoid excess stock that could affect profitability for either side.",
+        a: "Warehousing and fulfillment costs are built into our wholesale pricing model — there are no separate storage invoices to the brand. We target 60–90 day inventory turns per SKU. If a SKU approaches 90 days on hand without movement, we notify you and agree on a plan — whether that's a price adjustment, a promotion, or a return.",
       },
     ],
   },
@@ -75,7 +75,7 @@ const faqs = [
     questions: [
       {
         q: "How often will I receive sales reports?",
-        a: "Reporting frequency is agreed upon during onboarding. Most partners receive monthly performance reports covering units sold, revenue, inventory status, and key marketplace metrics. Custom reporting schedules can be accommodated.",
+        a: "Monthly reports are delivered by the 5th of each month. Each report includes units sold by SKU, gross revenue, current inventory on hand, order fill rate, reorder status, and a log of any MAP violations detected. Mid-month snapshots are available on request.",
       },
       {
         q: "Who do I contact if I have a question or issue?",
@@ -83,7 +83,7 @@ const faqs = [
       },
       {
         q: "Can I see distribution performance in real time?",
-        a: "We provide regular reporting snapshots and can share relevant performance data upon request. For brands that want more visibility, we can set up a custom reporting cadence that gives you timely access to sales, inventory, and buyer channel metrics.",
+        a: "Monthly reports are the standard cadence, but we can provide weekly inventory and order snapshots for brands that need tighter visibility. All reports are delivered as structured spreadsheets covering SKU-level units, revenue, inventory, and fill rate. Ad hoc data requests are typically turned around within 1 business day.",
       },
     ],
   },

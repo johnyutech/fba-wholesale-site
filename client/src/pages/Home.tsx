@@ -266,7 +266,7 @@ export default function Home() {
                 {
                   icon: BadgeCheck,
                   title: "MAP Compliance",
-                  description: "We honor your Minimum Advertised Price policy across every channel we sell through, and flow those terms to every buyer we work with.",
+                  description: "MAP is documented in every partnership agreement and flows to all buyers in our network. Violations are flagged within 48 hours. Repeat violators are removed.",
                 },
                 {
                   icon: ShieldCheck,
@@ -281,7 +281,7 @@ export default function Home() {
                 {
                   icon: AlertTriangle,
                   title: "Unauthorized Seller Monitoring",
-                  description: "We actively monitor for unauthorized sellers and MAP violations in your distribution channel and report them to you as part of standard operations.",
+                  description: "We monitor advertised prices across active buyer accounts and flag violations within 48 hours. A full unauthorized seller log is included in every monthly report.",
                 },
               ].map((item, i) => (
                 <div key={i} className="rounded-xl border border-border p-5 hover:border-primary/40 hover:shadow-sm transition-all duration-200">

@@ -29,7 +29,7 @@ const sections = [
     content: [
       {
         heading: "How Our Fulfillment Works",
-        body: "We receive inbound inventory from brand partners, store it in our fulfillment operation, and ship outbound orders to retail buyers as they come in. This allows buyers to receive fast, reliable fulfillment without brands needing to manage individual B2B orders.",
+        body: "We receive inbound inventory from brand partners, store it in our fulfillment operation, and ship outbound orders to retail buyers within 2 business days of order confirmation. Standard outbound transit to buyers is 3–5 business days via ground carrier. Expedited shipping is available on request.",
       },
       {
         heading: "Shipping Inventory to Us",
@@ -37,7 +37,7 @@ const sections = [
       },
       {
         heading: "Inventory Replenishment",
-        body: "We monitor sell-through rates and proactively submit purchase orders to maintain healthy inventory levels. Low stock alerts and reorder thresholds are managed to minimize stockouts and avoid excess inventory buildup.",
+        body: "Reorder requests are triggered automatically when on-hand inventory drops to a 30-day supply based on trailing 90-day sell-through. Brand partners receive a reorder request via email with a 5-business-day confirmation window. Purchase orders are issued upon confirmation and inventory is expected within the agreed lead time.",
       },
     ],
   },
@@ -55,7 +55,7 @@ const sections = [
       },
       {
         heading: "Buyer Account Management",
-        body: "Our team actively manages relationships with retail buyers — fielding inquiries, processing orders, coordinating reorders, and growing account volume over time. Strong buyer relationships are central to how we drive sustained distribution growth.",
+        body: "Each retail buyer account has a named contact on our team responsible for fielding inquiries, issuing quotes, processing orders, and managing reorder cadence. Buyer inquiries are responded to within 1 business day. Order confirmations are issued same day. Brand partners receive a copy of all purchase orders issued to buyers.",
       },
     ],
   },
@@ -83,11 +83,11 @@ const sections = [
     content: [
       {
         heading: "Sales Reporting",
-        body: "Brand partners receive regular sales reports including units sold, revenue, inventory levels, and marketplace performance metrics. Reports are provided on a schedule agreed upon during onboarding (typically monthly or quarterly).",
+        body: "Monthly reports are delivered by the 5th of each month as a structured spreadsheet. Each report covers: units sold by SKU, gross revenue, inventory on hand, order fill rate, reorder status, and a MAP violation log. Mid-month snapshots and ad hoc data requests are fulfilled within 1 business day.",
       },
       {
         heading: "Performance Metrics",
-        body: "Key metrics we track include sell-through rate, order fill rate, buyer reorder frequency, return rate, and channel revenue. These metrics inform our joint strategy for growing your brand's wholesale distribution over time.",
+        body: "Standard metrics tracked per SKU include sell-through rate, order fill rate, buyer reorder frequency, return rate, and channel revenue. We flag any SKU approaching 90 days on hand without movement and include a recommended action in the monthly report.",
       },
     ],
   },
@@ -97,7 +97,7 @@ const sections = [
     content: [
       {
         heading: "Wholesale Pricing",
-        body: "Wholesale pricing is negotiated individually with each brand partner and outlined in a formal purchase order or wholesale agreement. Pricing accounts for product cost, Amazon fees, fulfillment costs, and target margins.",
+        body: "Wholesale pricing is negotiated individually with each brand partner and outlined in a formal wholesale agreement signed before any inventory moves. Pricing is built from four inputs: your unit cost, inbound freight, our warehousing and outbound fulfillment cost, and a target net margin. We share the full cost breakdown so both sides evaluate the deal on the same numbers.",
       },
       {
         heading: "Payment Terms",

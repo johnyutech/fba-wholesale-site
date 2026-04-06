@@ -63,25 +63,24 @@ const steps = [
     icon: TrendingUp,
     title: "Active Distribution & Order Management",
     description:
-      "With inventory in hand, we actively sell to our retail buyer network — managing pricing, fielding buyer inquiries, processing orders, and coordinating outbound fulfillment. You focus on your product and supply chain. We focus on moving it.",
+      "With inventory in hand, we actively sell to our retail buyer network. Buyer inquiries are responded to within 1 business day. Orders are processed and shipped within 2 business days of confirmation. You receive a copy of every PO we issue to buyers.",
     details: [
-      "Retail buyer outreach and account management",
-      "Competitive pricing and MAP enforcement",
-      "Order processing and outbound fulfillment",
-      "Unauthorized seller monitoring and reporting",
+      "Named account contact for every buyer relationship",
+      "MAP monitored across all active channels — violations flagged within 48 hours",
+      "Orders processed and shipped within 2 business days",
+      "Unauthorized seller reports delivered as part of monthly summary",
     ],
   },
   {
     number: "06",
     icon: BarChart2,
     title: "Reporting & Growth",
-    description:
-      "You'll receive regular performance reports covering sales volume, revenue, inventory levels, and key marketplace metrics. We review the data together, identify what's working, and make adjustments. The goal is a partnership that compounds over time — not a one-time transaction.",
+      "Monthly reports are delivered by the 5th of each month and cover units sold, gross revenue, inventory on hand, fill rate, reorder status, and any MAP violations flagged. Quarterly calls are available to review trends and adjust strategy.",
     details: [
-      "Monthly sales and revenue reports",
-      "Inventory health and reorder planning",
-      "Channel and buyer performance summaries",
-      "Quarterly strategy reviews",
+      "Monthly reports delivered by the 5th — units, revenue, fill rate, inventory",
+      "Reorder triggered at 30-day supply threshold with 5-day confirmation window",
+      "Channel and buyer performance included in every report",
+      "Quarterly strategy calls available on request",
     ],
   },
 ];
@@ -89,7 +88,7 @@ const steps = [
 const faqs = [
   {
     q: "How long does onboarding take?",
-    a: "From signed agreement to active distribution, onboarding typically takes 5–10 business days. Catalog setup, inventory coordination, and buyer introductions happen in parallel to keep things moving.",
+    a: "From signed agreement to first active buyer order, onboarding typically takes 5–10 business days. Day 1–3 covers catalog setup and MAP documentation. Day 3–7 covers inbound inventory coordination. Buyer introductions begin as soon as inventory is confirmed received.",
   },
   {
     q: "Do you require exclusivity?",
@@ -101,7 +100,7 @@ const faqs = [
   },
   {
     q: "How are wholesale prices determined?",
-    a: "We look at your product cost, our fulfillment costs, buyer pricing expectations, and target margin to arrive at a wholesale price that works for both sides. Every agreement is negotiated individually.",
+    a: "We build pricing from four inputs: your unit cost, our inbound freight and warehousing cost, estimated outbound fulfillment cost to buyers, and a target net margin. We share the full breakdown so both sides can evaluate the deal on the same numbers. Every agreement is signed before any inventory moves.",
   },
 ];
 
