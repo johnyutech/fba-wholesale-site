@@ -11,12 +11,12 @@ const steps = [
     icon: MessageSquare,
     title: "Initial Conversation",
     description:
-      "You reach out and we schedule a call within 2 business days. On that call we review your product categories, current distribution setup, unit economics, and supply capacity. We'll tell you directly whether we think there's a fit — and what that partnership would look like on our end. No vague follow-ups.",
+      "You reach out and we typically schedule a call within 2 business days. On that call we review your product categories, current distribution setup, unit economics, and supply capacity. We'll tell you directly whether we think there's a fit — and what that partnership would look like on our end. No vague follow-ups.",
     details: [
       "SKU count, category, and volume review",
       "Current channel and pricing structure assessment",
       "Margin and MOQ feasibility check",
-      "Go/no-go decision communicated within 3 business days of the call",
+      "Go/no-go decision typically communicated within 3 business days of the call",
     ],
   },
   {
@@ -24,11 +24,11 @@ const steps = [
     icon: FileText,
     title: "Partnership Agreement",
     description:
-      "If we move forward, we issue a wholesale agreement within 3 business days of alignment. It covers wholesale unit pricing, Net 30 payment terms, MAP policy, reporting cadence, and exclusivity terms if applicable. No inventory moves until the agreement is signed by both parties.",
+      "If we move forward, we typically issue a wholesale agreement within 3 business days of alignment. It covers wholesale unit pricing, payment terms, MAP policy, reporting cadence, and exclusivity terms if applicable. No inventory moves until the agreement is signed by both parties.",
     details: [
       "Wholesale pricing built from unit cost, freight, fulfillment, and target margin",
       "MAP policy documented and applied to all buyer accounts",
-      "Net 30 payment terms from invoice date — standard across all partners",
+      "Standard payment terms are Net 30 from invoice date",
       "30-day written termination notice — no lock-in beyond active POs",
     ],
   },
@@ -37,7 +37,7 @@ const steps = [
     icon: ShieldCheck,
     title: "Catalog & Product Setup",
     description:
-      "Before any inventory is ordered, we complete a full catalog setup. This covers SKU-level product data, imagery, spec sheets, and buyer-facing sell sheets. Target completion is 3 business days. Nothing goes to buyers until product information meets our accuracy standards.",
+      "Before any inventory is ordered, we complete a full catalog setup. This covers SKU-level product data, imagery, spec sheets, and buyer-facing sell sheets. Target completion is typically 3 business days. Nothing goes to buyers until product information meets our accuracy standards.",
     details: [
       "SKU-level data entry: dimensions, weight, case pack, UPC",
       "Imagery review — minimum 1 primary image per SKU required",
@@ -50,11 +50,11 @@ const steps = [
     icon: Truck,
     title: "Inventory & Fulfillment Onboarding",
     description:
-      "We issue the opening purchase order once catalog setup is complete. Inbound shipments must include a packing slip and match the PO exactly — discrepancies are flagged within 24 hours of receiving. Inventory is checked in, counted, and confirmed available within 1 business day of receipt.",
+      "We issue the opening purchase order once catalog setup is complete. Inbound shipments must include a packing slip and match the PO exactly — discrepancies are typically flagged within 24 hours of receiving. Inventory is checked in, counted, and confirmed available within 1 business day of receipt.",
     details: [
-      "Opening PO issued within 1 business day of signed agreement",
+      "Opening PO typically issued within 1 business day of signed agreement",
       "Inbound requirements: packing slip, case labels, UPC on each unit",
-      "Receiving discrepancies flagged within 24 hours",
+      "Receiving discrepancies typically flagged within 24 hours",
       "Inventory confirmation sent to brand upon check-in",
     ],
   },
@@ -63,11 +63,11 @@ const steps = [
     icon: TrendingUp,
     title: "Active Distribution & Order Management",
     description:
-      "With inventory confirmed, we begin buyer outreach immediately. Each buyer account has a named contact on our team. Buyer inquiries are responded to within 1 business day. Orders are processed and shipped within 2 business days of confirmation. You receive a copy of every PO we issue to buyers.",
+      "With inventory confirmed, we begin buyer outreach immediately. Each buyer account has a named contact on our team. Buyer inquiries are typically responded to within 1 business day. Orders are processed and shipped within 2 business days of confirmation under normal operating conditions. You receive a copy of every PO we issue to buyers.",
     details: [
       "Named account contact for every buyer relationship",
-      "MAP monitored across all active channels — violations flagged within 48 hours",
-      "Orders processed and shipped within 2 business days",
+      "MAP monitored across all active channels — violations typically flagged within 48 hours",
+      "Orders typically processed and shipped within 2 business days",
       "Brand receives copy of every buyer PO issued",
     ],
   },
@@ -76,11 +76,11 @@ const steps = [
     icon: BarChart2,
     title: "Reporting & Reorder",
     description:
-      "Monthly reports are delivered by the 5th of each month covering units sold by SKU, gross revenue, inventory on hand, order fill rate, reorder status, and a MAP violation log. Reorders are triggered automatically when on-hand inventory hits a 30-day supply — you receive the reorder request with a 5-business-day confirmation window.",
+      "Monthly reports are targeted for delivery by the 5th of each month covering units sold by SKU, gross revenue, inventory on hand, order fill rate, reorder status, and a MAP violation log. Reorders are triggered when on-hand inventory approaches a 30-day supply — you receive the reorder request with a 5-business-day confirmation window.",
     details: [
-      "Monthly reports by the 5th — units, revenue, fill rate, inventory, MAP log",
+      "Monthly reports targeted by the 5th — units, revenue, fill rate, inventory, MAP log",
       "Reorder triggered at 30-day supply threshold, 5-day confirmation window",
-      "Ad hoc data requests fulfilled within 1 business day",
+      "Ad hoc data requests typically fulfilled within 1 business day",
       "Quarterly strategy calls available on request",
     ],
   },
@@ -129,8 +129,11 @@ export default function HowItWorks() {
           {/* Header */}
           <div className="mb-14">
             <h1 className="text-4xl font-bold mb-4">How It Works</h1>
-            <p className="text-lg text-muted-foreground leading-relaxed">
+            <p className="text-lg text-muted-foreground leading-relaxed mb-4">
               A step-by-step overview of how we onboard new brand partners, from initial review through active distribution.
+            </p>
+            <p className="text-sm text-muted-foreground border border-border rounded-lg px-4 py-3 bg-muted/30">
+              Timelines described below reflect our standard operating targets and may vary based on brand readiness, product complexity, and volume. Nothing on this page constitutes a binding commitment — all obligations are defined in the signed partnership agreement.
             </p>
           </div>
 

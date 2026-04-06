@@ -317,8 +317,8 @@ export default function Home() {
               <Button className="bg-white text-primary hover:bg-gray-100 px-8 py-3 font-semibold" onClick={() => navigate("/contact")}>
                 Request Partnership Review
               </Button>
-              <Button className="border-2 border-white text-white hover:bg-white/10 px-8 py-3 font-semibold" onClick={() => navigate("/contact")}>
-                Schedule a Call
+              <Button className="border-2 border-white text-white hover:bg-white/10 px-8 py-3 font-semibold" onClick={() => navigate("/how-it-works")}>
+                See How It Works
               </Button>
             </div>
           </div>
