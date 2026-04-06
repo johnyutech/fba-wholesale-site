@@ -70,10 +70,10 @@ export default function Home() {
                 <span className="text-sm font-medium text-primary">Trusted by 50+ Brand Partners</span>
               </div>
               <h1 className="text-5xl md:text-6xl font-bold leading-tight">
-                Built for Brands. <span className="text-primary">Built for Scale.</span>
+                Wholesale Distribution for <span className="text-primary">Consumer Brands</span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg">
-                Apex Trade Distribution is a B2B wholesale distributor that partners with consumer brands to connect their products with retail buyers. We handle purchasing, logistics, and channel management so brands can focus on what they do best.
+                Apex Trade Distribution purchases inventory directly from consumer brands and distributes it through our retail buyer network. We manage purchasing, logistics, MAP enforcement, and monthly reporting.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Button className="btn-primary flex items-center gap-2" onClick={() => navigate("/contact")}>
@@ -118,7 +118,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">How We Partner</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Our distribution model gives brands reliable wholesale demand, broad retail reach, and a partner that handles the complexity of B2B channel management.
+              We purchase inventory from brand partners and sell it through our retail buyer network. Here's what that involves on our end.
             </p>
           </div>
 
@@ -127,17 +127,17 @@ export default function Home() {
               {
                 icon: Users,
                 title: "Retail Buyer Network",
-                description: "We connect brands directly to our established network of retail buyers — from independent retailers to regional chains — creating consistent, scalable demand."
+                description: "We sell to independent retailers, regional chains, and online accounts. Brand partners receive a copy of every purchase order we issue to buyers."
               },
               {
                 icon: TrendingUp,
                 title: "Multi-Channel Distribution",
-                description: "Our distribution reach spans online and brick-and-mortar retail channels, giving brands broad market coverage without managing each account themselves."
+                description: "We distribute across online and brick-and-mortar retail channels. Brands don't manage individual buyer accounts — we handle that side of the operation."
               },
               {
                 icon: Zap,
                 title: "Market Intelligence",
-                description: "Real-time insights into buyer demand, channel performance, and pricing trends help brands make better decisions about inventory and growth."
+                description: "Monthly reports cover SKU-level units, revenue, inventory on hand, fill rate, and MAP violations. Ad hoc data requests are fulfilled within 1 business day."
               }
             ].map((item, i) => (
               <div
@@ -251,12 +251,12 @@ export default function Home() {
                 <ShieldCheck className="w-4 h-4 text-primary" />
                 <span className="text-sm font-medium text-primary">Brand Protection</span>
               </div>
-              <h2 className="text-4xl font-bold mb-4">Your Brand Integrity Is Non-Negotiable</h2>
+              <h2 className="text-4xl font-bold mb-4">How We Protect Your Brand</h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Every brand we carry is represented with the same standards we'd apply to our own. That means consistent pricing, clean distribution, and zero tolerance for practices that put your brand at risk.
+                Every brand we carry is subject to the same standards: MAP documented and enforced, distribution limited to authorized channels, and product represented accurately to buyers.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                We take an active role in protecting the brands we partner with — not just complying with policies, but enforcing them.
+                Violations are flagged promptly and included in monthly reporting. Repeat offenders are removed from our buyer network.
               </p>
             </div>
 
@@ -309,9 +309,9 @@ export default function Home() {
         </div>
         <div className="container relative z-10">
           <div className="text-center max-w-2xl mx-auto">
-            <h2 className="text-4xl font-bold mb-4">Ready to Expand Your Distribution?</h2>
+            <h2 className="text-4xl font-bold mb-4">Work With Us</h2>
             <p className="text-lg text-white/90 mb-8">
-              Join the brands that rely on Apex Trade to move product, reach new buyers, and grow their wholesale business.
+              If you're looking for a wholesale distribution partner with clear processes and straightforward terms, we're happy to talk.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-white text-primary hover:bg-gray-100 px-8 py-3 font-semibold" onClick={() => navigate("/contact")}>

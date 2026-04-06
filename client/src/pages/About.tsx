@@ -14,12 +14,12 @@ const values = [
   {
     icon: TrendingUp,
     title: "Growth-Focused",
-    body: "Our model is designed around one goal: helping brands grow their wholesale volume. We invest in the buyer relationships, logistics infrastructure, and channel expertise needed to drive meaningful, sustainable distribution growth.",
+    body: "We track sell-through by SKU, size purchase orders to 60–90 day turns, and flag slow-moving inventory before it becomes a problem. The goal is a distribution operation that runs predictably.",
   },
   {
     icon: Users,
     title: "True Partnership",
-    body: "We don't treat brands as vendors — we treat them as partners. That means open communication, aligned incentives, and a shared commitment to long-term success.",
+    body: "Brand partners receive monthly reports, copies of all buyer POs, and a direct contact on our team. We communicate proactively when something changes — we don't wait for brands to ask.",
   },
 ];
 
@@ -48,18 +48,18 @@ export default function About() {
           <div className="mb-14">
             <h1 className="text-4xl font-bold mb-4">About Apex Trade Distribution</h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Apex Trade Distribution is a B2B wholesale distributor. We partner directly with consumer brands to purchase their products at wholesale and distribute them through our retail buyer network — expanding their reach, protecting their reputation, and accelerating their growth across retail channels.
+              Apex Trade Distribution is a B2B wholesale distributor. We purchase inventory directly from consumer brands and distribute it through our retail buyer network across online and brick-and-mortar channels.
             </p>
           </div>
 
           {/* Mission */}
           <div className="mb-14">
-            <h2 className="text-2xl font-semibold mb-4">Our Mission</h2>
+            <h2 className="text-2xl font-semibold mb-4">How We Operate</h2>
             <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-              Our mission is simple: give brands a reliable, professional distribution partner they can actually count on. Too many great products underperform because brands lack access to the right buyers, the right channels, or the infrastructure to fulfill B2B orders at scale.
+              We operate as an authorized wholesale distributor for the brands we carry. Our focus is on running a clean, accountable distribution operation — one with documented processes, clear reporting, and consistent follow-through.
             </p>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              We exist to change that. By combining deep wholesale distribution expertise with a compliance-first approach, we help brands build consistent, scalable demand across retail channels — and grow beyond what direct sales alone can achieve.
+              We work with brands across health & wellness, food & beverage, home goods, beauty, and specialty consumer products. If a brand has a product that fits our network, we want to understand the numbers and figure out whether there's a deal that makes sense for both sides.
             </p>
           </div>
 
@@ -70,7 +70,7 @@ export default function About() {
               We purchase inventory directly from brand partners at wholesale prices and distribute it through our retail buyer network. This includes managing buyer relationships, coordinating logistics and fulfillment, enforcing MAP policies, and providing brands with transparent performance reporting.
             </p>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Our team brings hands-on experience across dozens of product categories including health & wellness, food & beverage, home goods, beauty, and specialty consumer products. We know how to move product through wholesale channels — efficiently, reliably, and at scale.
+              Our team has direct experience across health & wellness, food & beverage, home goods, beauty, and specialty consumer products. We understand the unit economics of wholesale distribution and build partnerships around numbers that work for both sides.
             </p>
           </div>
 
@@ -112,9 +112,9 @@ export default function About() {
 
           {/* CTA */}
           <div className="rounded-xl border border-primary/20 bg-primary/5 p-6 text-center">
-            <p className="font-semibold mb-1">Ready to grow your wholesale distribution?</p>
+            <p className="font-semibold mb-1">Interested in working together?</p>
             <p className="text-sm text-muted-foreground mb-4">
-              Let's talk about how Apex Trade Distribution can expand your wholesale reach.
+              Send us a note and we'll follow up within 2 business days to discuss whether there's a fit.
             </p>
             <Button className="btn-primary" onClick={() => navigate("/contact")}>
               Start Your Partnership

@@ -11,12 +11,12 @@ const steps = [
     icon: MessageSquare,
     title: "Initial Conversation",
     description:
-      "It starts with a straightforward conversation. You reach out, we learn about your brand — product categories, current sales channels, volume, and goals. We'll be upfront about whether we think we're a good fit, and we expect the same from you. No pressure, no drawn-out sales process.",
+      "You reach out and we schedule a call within 2 business days. On that call we review your product categories, current distribution setup, unit economics, and supply capacity. We'll tell you directly whether we think there's a fit — and what that partnership would look like on our end. No vague follow-ups.",
     details: [
-      "Brand and product category review",
-      "Current distribution channel assessment",
-      "Volume and margin evaluation",
-      "Alignment on goals and expectations",
+      "SKU count, category, and volume review",
+      "Current channel and pricing structure assessment",
+      "Margin and MOQ feasibility check",
+      "Go/no-go decision communicated within 3 business days of the call",
     ],
   },
   {
@@ -24,12 +24,12 @@ const steps = [
     icon: FileText,
     title: "Partnership Agreement",
     description:
-      "If both sides want to move forward, we put together a straightforward wholesale agreement that covers pricing, purchase order terms, MAP policy, and reporting cadence. We keep the contract clean — no hidden clauses, no lock-in terms that don't make sense for both parties.",
+      "If we move forward, we issue a wholesale agreement within 3 business days of alignment. It covers wholesale unit pricing, Net 30 payment terms, MAP policy, reporting cadence, and exclusivity terms if applicable. No inventory moves until the agreement is signed by both parties.",
     details: [
-      "Wholesale pricing and payment terms",
-      "MAP policy documentation",
-      "Reporting and communication schedule",
-      "Exclusivity terms (if applicable)",
+      "Wholesale pricing built from unit cost, freight, fulfillment, and target margin",
+      "MAP policy documented and applied to all buyer accounts",
+      "Net 30 payment terms from invoice date — standard across all partners",
+      "30-day written termination notice — no lock-in beyond active POs",
     ],
   },
   {
@@ -37,12 +37,12 @@ const steps = [
     icon: ShieldCheck,
     title: "Catalog & Product Setup",
     description:
-      "Before inventory moves, we get your product catalog in order. That means reviewing specs, imagery, and product data across our distribution channels, confirming MAP policy terms, and ensuring we have everything needed to represent your brand accurately to buyers.",
+      "Before any inventory is ordered, we complete a full catalog setup. This covers SKU-level product data, imagery, spec sheets, and buyer-facing sell sheets. Target completion is 3 business days. Nothing goes to buyers until product information meets our accuracy standards.",
     details: [
-      "Product catalog and SKU review",
-      "Imagery and spec sheet collection",
-      "MAP policy documentation and confirmation",
-      "Buyer-facing sell sheet preparation",
+      "SKU-level data entry: dimensions, weight, case pack, UPC",
+      "Imagery review — minimum 1 primary image per SKU required",
+      "Sell sheet prepared for buyer outreach",
+      "MAP confirmed in writing before catalog goes live",
     ],
   },
   {
@@ -50,12 +50,12 @@ const steps = [
     icon: Truck,
     title: "Inventory & Fulfillment Onboarding",
     description:
-      "Once setup is complete, we submit our first purchase order and coordinate inbound inventory to our fulfillment operation. We handle packaging compliance and carrier coordination so product arrives ready to ship to buyers without delays.",
+      "We issue the opening purchase order once catalog setup is complete. Inbound shipments must include a packing slip and match the PO exactly — discrepancies are flagged within 24 hours of receiving. Inventory is checked in, counted, and confirmed available within 1 business day of receipt.",
     details: [
-      "Purchase order submission",
-      "Inbound shipment coordination",
-      "Packaging and labeling compliance review",
-      "Receiving confirmation and inventory check-in",
+      "Opening PO issued within 1 business day of signed agreement",
+      "Inbound requirements: packing slip, case labels, UPC on each unit",
+      "Receiving discrepancies flagged within 24 hours",
+      "Inventory confirmation sent to brand upon check-in",
     ],
   },
   {
@@ -63,23 +63,24 @@ const steps = [
     icon: TrendingUp,
     title: "Active Distribution & Order Management",
     description:
-      "With inventory in hand, we actively sell to our retail buyer network. Buyer inquiries are responded to within 1 business day. Orders are processed and shipped within 2 business days of confirmation. You receive a copy of every PO we issue to buyers.",
+      "With inventory confirmed, we begin buyer outreach immediately. Each buyer account has a named contact on our team. Buyer inquiries are responded to within 1 business day. Orders are processed and shipped within 2 business days of confirmation. You receive a copy of every PO we issue to buyers.",
     details: [
       "Named account contact for every buyer relationship",
       "MAP monitored across all active channels — violations flagged within 48 hours",
       "Orders processed and shipped within 2 business days",
-      "Unauthorized seller reports delivered as part of monthly summary",
+      "Brand receives copy of every buyer PO issued",
     ],
   },
   {
     number: "06",
     icon: BarChart2,
-    title: "Reporting & Growth",
-      "Monthly reports are delivered by the 5th of each month and cover units sold, gross revenue, inventory on hand, fill rate, reorder status, and any MAP violations flagged. Quarterly calls are available to review trends and adjust strategy.",
+    title: "Reporting & Reorder",
+    description:
+      "Monthly reports are delivered by the 5th of each month covering units sold by SKU, gross revenue, inventory on hand, order fill rate, reorder status, and a MAP violation log. Reorders are triggered automatically when on-hand inventory hits a 30-day supply — you receive the reorder request with a 5-business-day confirmation window.",
     details: [
-      "Monthly reports delivered by the 5th — units, revenue, fill rate, inventory",
-      "Reorder triggered at 30-day supply threshold with 5-day confirmation window",
-      "Channel and buyer performance included in every report",
+      "Monthly reports by the 5th — units, revenue, fill rate, inventory, MAP log",
+      "Reorder triggered at 30-day supply threshold, 5-day confirmation window",
+      "Ad hoc data requests fulfilled within 1 business day",
       "Quarterly strategy calls available on request",
     ],
   },
@@ -92,11 +93,11 @@ const faqs = [
   },
   {
     q: "Do you require exclusivity?",
-    a: "Not by default. Exclusivity is negotiated case by case depending on the brand, category, and volume commitment. We're flexible and will always be upfront about what we're asking for and why.",
+    a: "Not by default. Exclusivity terms are negotiated case by case based on the brand, category, and volume commitment, and are documented in the partnership agreement.",
   },
   {
     q: "What categories do you work in?",
-    a: "We work across health & wellness, food & beverage, home goods, beauty, and specialty consumer products. If you're unsure whether your category is a fit, just reach out — we'll give you an honest answer.",
+    a: "We work across health & wellness, food & beverage, home goods, beauty, and specialty consumer products. If you're unsure whether your category is a fit, reach out and we'll let you know after reviewing the product and numbers.",
   },
   {
     q: "How are wholesale prices determined?",
@@ -129,7 +130,7 @@ export default function HowItWorks() {
           <div className="mb-14">
             <h1 className="text-4xl font-bold mb-4">How It Works</h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              From first conversation to active distribution — here's exactly what it looks like to partner with Apex Trade Distribution.
+              A step-by-step overview of how we onboard new brand partners, from initial review through active distribution.
             </p>
           </div>
 
@@ -188,9 +189,9 @@ export default function HowItWorks() {
 
           {/* CTA */}
           <div className="rounded-xl border border-primary/20 bg-primary/5 p-6 text-center">
-            <p className="font-semibold mb-1">Ready to get started?</p>
+            <p className="font-semibold mb-1">Want to discuss a partnership?</p>
             <p className="text-sm text-muted-foreground mb-4">
-              The first step is a quick conversation. No commitment, no pressure.
+              Send us a note with your brand and product details. We'll follow up within 2 business days.
             </p>
             <Button className="btn-primary" onClick={() => navigate("/contact")}>
               Start Your Partnership
