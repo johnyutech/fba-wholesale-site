@@ -380,7 +380,8 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-white/10 pt-8 text-sm text-white/40">
-            <p>&copy; 2026 Apex Trade Distribution. All rights reserved.</p>
+            <p>&copy; 2026 Apex Trade Distribution LLC. All rights reserved.</p>
+            <p className="mt-1">Apex Trade Distribution LLC is a registered wholesale distributor.</p>
           </div>
         </div>
       </footer>

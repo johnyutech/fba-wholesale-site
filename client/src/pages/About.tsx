@@ -48,7 +48,7 @@ export default function About() {
           <div className="mb-14">
             <h1 className="text-4xl font-bold mb-4">About Apex Trade Distribution</h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Apex Trade Distribution is a B2B wholesale distributor. We purchase inventory directly from consumer brands and distribute it through our retail buyer network across online and brick-and-mortar channels.
+              Apex Trade Distribution LLC is a registered B2B wholesale distributor. We purchase inventory directly from consumer brands and distribute it through our retail buyer network across online and brick-and-mortar channels.
             </p>
           </div>
 
