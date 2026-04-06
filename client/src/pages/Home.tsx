@@ -184,6 +184,62 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Onboarding Process Section */}
+      <section className="py-24 px-4 md:px-0 bg-card">
+        <div className="container">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold mb-4">How Onboarding Works</h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              A straightforward process designed to get your brand into active distribution quickly, without unnecessary complexity.
+            </p>
+          </div>
+
+          <div className="relative">
+            {/* Connecting line */}
+            <div className="hidden md:block absolute top-8 left-[calc(12.5%+1.5rem)] right-[calc(12.5%+1.5rem)] h-px bg-border z-0" />
+
+            <div className="grid md:grid-cols-4 gap-8 relative z-10">
+              {[
+                {
+                  step: "01",
+                  title: "Initial Review",
+                  description: "We evaluate your brand, product categories, margins, and supply capacity to confirm we're a strong mutual fit.",
+                },
+                {
+                  step: "02",
+                  title: "Partnership Agreement",
+                  description: "We establish wholesale pricing, MAP policy, payment terms, and reporting cadence in a clear, straightforward agreement.",
+                },
+                {
+                  step: "03",
+                  title: "Inventory Onboarding",
+                  description: "We submit our first purchase order and coordinate inbound inventory, handling all logistics and compliance requirements.",
+                },
+                {
+                  step: "04",
+                  title: "Active Distribution",
+                  description: "Your products enter our buyer network. We manage orders, fulfillment, and channel reporting on an ongoing basis.",
+                },
+              ].map((item, i) => (
+                <div key={i} className="flex flex-col items-center text-center">
+                  <div className="w-16 h-16 rounded-full bg-primary text-white flex items-center justify-center font-bold text-lg mb-5 shrink-0 shadow-md">
+                    {item.step}
+                  </div>
+                  <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">{item.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="text-center mt-12">
+            <p className="text-sm text-muted-foreground">
+              Most brands are in active distribution within <span className="font-semibold text-foreground">5–10 business days</span> of signing.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section id="contact" className="py-24 px-4 md:px-0 bg-gradient-to-r from-primary to-primary/80 text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
