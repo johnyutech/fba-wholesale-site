@@ -354,7 +354,7 @@ export default function BlogPost() {
               Reach out to our team and let's talk about what wholesale distribution could look like for your brand.
             </p>
             <Button className="btn-primary" onClick={() => navigate("/contact")}>
-              Start Your Partnership
+              Request Partnership Review
             </Button>
           </div>
 

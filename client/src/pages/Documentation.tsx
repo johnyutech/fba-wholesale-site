@@ -43,7 +43,7 @@ const sections = [
   },
   {
     icon: TrendingUp,
-    title: "Listing & Sales Management",
+    title: "Catalog & Sales Management",
     content: [
       {
         heading: "Catalog & Product Presentation",
@@ -73,7 +73,7 @@ const sections = [
       },
       {
         heading: "Intellectual Property Compliance",
-        body: "All listings created by Apex Trade Distribution use only brand-approved images, copy, and assets. We never alter, repackage, or misrepresent products and operate strictly within the boundaries of our partnership agreement.",
+        body: "All product representations created by Apex Trade Distribution use only brand-approved images, copy, and assets. We never alter, repackage, or misrepresent products and operate strictly within the boundaries of our partnership agreement.",
       },
     ],
   },

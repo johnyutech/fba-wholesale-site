@@ -79,9 +79,9 @@ export default function Contact() {
           ) : (
             <>
               <div className="mb-8">
-                <h1 className="text-4xl font-bold mb-2">Start Your Partnership</h1>
+                <h1 className="text-4xl font-bold mb-2">Request Partnership Review</h1>
                 <p className="text-muted-foreground">
-                  Fill out the form below and we'll reach out to discuss how Apex Trade can scale your brand.
+                  Fill out the form below and we'll follow up within 2 business days to discuss whether there's a fit.
                 </p>
               </div>
 

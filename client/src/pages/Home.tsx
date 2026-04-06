@@ -275,7 +275,7 @@ export default function Home() {
                 },
                 {
                   icon: BookOpen,
-                  title: "Listing Quality Standards",
+                  title: "Product Representation Standards",
                   description: "Your products are represented with accurate specs, approved imagery, and brand-consistent copy. We never alter, repackage, or misrepresent what we carry.",
                 },
                 {
@@ -315,7 +315,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-white text-primary hover:bg-gray-100 px-8 py-3 font-semibold" onClick={() => navigate("/contact")}>
-                Start Your Partnership
+                Request Partnership Review
               </Button>
               <Button className="border-2 border-white text-white hover:bg-white/10 px-8 py-3 font-semibold" onClick={() => navigate("/contact")}>
                 Schedule a Call
@@ -328,16 +328,37 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-foreground text-white py-16 px-4 md:px-0">
         <div className="container">
-          <div className="grid md:grid-cols-4 gap-8 mb-8">
-            <div>
+          <div className="grid md:grid-cols-5 gap-10 mb-10">
+            {/* Identity block — spans 2 cols */}
+            <div className="md:col-span-2">
               <div className="flex items-center gap-3 mb-4">
                 <img src={ATD_LOGO} alt="Apex Trade Distribution" className="w-8 h-8" />
-                <span className="font-semibold">Apex Trade Distribution</span>
+                <span className="font-semibold text-base">Apex Trade Distribution</span>
               </div>
-              <p className="text-white/60 text-sm">Connecting brands with retail buyers through strategic B2B wholesale distribution.</p>
+              <p className="text-white/60 text-sm leading-relaxed mb-5">
+                Wholesale distribution for consumer brands.
+              </p>
+              <div className="space-y-2 text-sm">
+                <div className="flex items-center gap-2 text-white/70">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 shrink-0 text-white/40" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25H4.5a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5H4.5a2.25 2.25 0 00-2.25 2.25m19.5 0l-9.75 6.75L2.25 6.75" />
+                  </svg>
+                  <a href="mailto:sales@apexdistribution.co" className="hover:text-white transition">
+                    sales@apexdistribution.co
+                  </a>
+                </div>
+                <div className="flex items-center gap-2 text-white/70">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 shrink-0 text-white/40" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                  </svg>
+                  <span>Nationwide wholesale distribution</span>
+                </div>
+              </div>
             </div>
+
             <div>
-              <h4 className="font-semibold mb-4">Company</h4>
+              <h4 className="font-semibold mb-4 text-sm uppercase tracking-wide text-white/40">Company</h4>
               <ul className="space-y-2 text-sm text-white/60">
                 <li><a href="#" className="hover:text-white transition" onClick={(e) => { e.preventDefault(); navigate("/about"); }}>About</a></li>
                 <li><a href="#" className="hover:text-white transition" onClick={(e) => { e.preventDefault(); navigate("/how-it-works"); }}>How It Works</a></li>
@@ -345,7 +366,7 @@ export default function Home() {
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold mb-4">Resources</h4>
+              <h4 className="font-semibold mb-4 text-sm uppercase tracking-wide text-white/40">Resources</h4>
               <ul className="space-y-2 text-sm text-white/60">
                 <li><a href="#" className="hover:text-white transition" onClick={(e) => { e.preventDefault(); navigate("/documentation"); }}>Documentation</a></li>
                 <li><a href="#" className="hover:text-white transition" onClick={(e) => { e.preventDefault(); navigate("/support"); }}>Support</a></li>
@@ -353,7 +374,7 @@ export default function Home() {
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold mb-4">Legal</h4>
+              <h4 className="font-semibold mb-4 text-sm uppercase tracking-wide text-white/40">Legal</h4>
               <ul className="space-y-2 text-sm text-white/60">
                 <li><a href="#" className="hover:text-white transition" onClick={(e) => { e.preventDefault(); navigate("/privacy"); }}>Privacy</a></li>
                 <li><a href="#" className="hover:text-white transition" onClick={(e) => { e.preventDefault(); navigate("/terms"); }}>Terms</a></li>
@@ -361,7 +382,7 @@ export default function Home() {
               </ul>
             </div>
           </div>
-          <div className="border-t border-white/10 pt-8 text-center text-sm text-white/60">
+          <div className="border-t border-white/10 pt-8 text-sm text-white/40">
             <p>&copy; 2026 Apex Trade Distribution. All rights reserved.</p>
           </div>
         </div>

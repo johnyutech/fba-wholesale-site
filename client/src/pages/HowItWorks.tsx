@@ -194,7 +194,7 @@ export default function HowItWorks() {
               Send us a note with your brand and product details. We'll follow up within 2 business days.
             </p>
             <Button className="btn-primary" onClick={() => navigate("/contact")}>
-              Start Your Partnership
+              Request Partnership Review
             </Button>
           </div>
 

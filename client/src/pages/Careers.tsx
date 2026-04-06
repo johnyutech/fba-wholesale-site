@@ -8,38 +8,38 @@ const ATD_LOGO =
 const openings = [
   {
     icon: TrendingUp,
-    title: "Amazon Marketplace Manager",
+    title: "Wholesale Distribution Manager",
     type: "Full-Time · Remote",
     description:
-      "Own the end-to-end performance of brand partner accounts on Amazon. Responsibilities include listing optimization, PPC campaign management, inventory planning, and weekly reporting. Ideal candidate has 2+ years of Amazon Seller Central experience.",
+      "Own the end-to-end performance of brand partner accounts across our retail buyer network. Responsibilities include buyer account management, catalog maintenance, pricing oversight, inventory planning, and weekly reporting. Ideal candidate has 2+ years of B2B wholesale or retail distribution experience.",
   },
   {
     icon: Package,
     title: "Inventory & Logistics Coordinator",
     type: "Full-Time · Remote",
     description:
-      "Manage inbound FBA shipments, coordinate with brand partners on purchase orders, and maintain healthy inventory levels across all SKUs. Experience with Amazon FBA prep requirements and shipping workflows required.",
+      "Manage inbound shipments, coordinate with brand partners on purchase orders, and maintain healthy inventory levels across all SKUs. Experience with B2B fulfillment operations, inbound receiving workflows, and purchase order management required.",
   },
   {
     icon: BarChart2,
     title: "Brand Partnership Analyst",
     type: "Full-Time · Remote",
     description:
-      "Research and evaluate new brand partnership opportunities. Analyze product margins, marketplace competition, and sales potential. Support onboarding of new brand partners and maintain performance dashboards.",
+      "Research and evaluate new brand partnership opportunities. Analyze product margins, channel competition, and distribution potential. Support onboarding of new brand partners and maintain performance dashboards.",
   },
   {
     icon: ShieldCheck,
     title: "Brand Protection Specialist",
     type: "Full-Time · Remote",
     description:
-      "Monitor Amazon listings for unauthorized sellers, MAP violations, and counterfeit activity. Work with brand partners and Amazon's Brand Registry team to enforce IP rights and maintain listing integrity.",
+      "Monitor distribution channels for unauthorized sellers, MAP violations, and gray market activity. Work directly with brand partners to enforce distribution policies, document violations, and maintain channel integrity.",
   },
 ];
 
 const perks = [
   "Fully remote work environment",
   "Competitive compensation",
-  "Direct exposure to Amazon marketplace strategy",
+  "Direct exposure to B2B wholesale distribution strategy",
   "Collaborative, fast-moving team",
   "Opportunity to grow with an expanding distribution network",
   "Work directly with recognized consumer brands",
@@ -70,13 +70,13 @@ export default function Careers() {
           <div className="mb-14">
             <h1 className="text-4xl font-bold mb-4">Careers at Apex Trade Distribution</h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              We're building a team of sharp, driven people who are passionate about e-commerce, brand growth, and doing things the right way. If you want to work at the intersection of wholesale distribution and Amazon strategy, we'd love to hear from you.
+              We're building a team with experience in wholesale distribution, brand management, and B2B operations. If you're interested in working directly with consumer brands and retail buyers, we'd like to hear from you.
             </p>
           </div>
 
           {/* Why work here */}
           <div className="mb-14">
-            <h2 className="text-2xl font-semibold mb-6">Why Apex Trade?</h2>
+            <h2 className="text-2xl font-semibold mb-6">Why Apex Trade Distribution?</h2>
             <div className="grid sm:grid-cols-2 gap-3">
               {perks.map((perk) => (
                 <div key={perk} className="flex items-start gap-3 rounded-lg border border-border px-4 py-3 text-sm text-muted-foreground">

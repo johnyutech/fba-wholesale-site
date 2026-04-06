@@ -61,7 +61,7 @@ export default function Terms() {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold mb-3">3. Authorized Reseller Status</h2>
+              <h2 className="text-xl font-semibold mb-3">3. Authorized Distributor Status</h2>
               <p>
                 Apex Trade Distribution operates exclusively as an authorized wholesale distributor. We purchase inventory directly from brands or their authorized suppliers and distribute through our established retail buyer network. We do not engage in unauthorized, gray market, or counterfeit product sales. All products distributed through our network are genuine, unaltered, and sourced through compliant supply chains in accordance with applicable law and each brand's distribution policies.
               </p>
@@ -102,7 +102,7 @@ export default function Terms() {
             <section>
               <h2 className="text-xl font-semibold mb-3">7. Payment and Pricing</h2>
               <p>
-                Wholesale pricing, payment terms, and invoicing schedules are agreed upon in individual purchase orders or wholesale agreements. All transactions are conducted in U.S. dollars unless otherwise specified. Apex Trade Distribution reserves the right to adjust purchasing volumes based on market conditions, inventory performance, and platform metrics. Late payments may result in suspension of purchases or termination of the partnership.
+                Wholesale pricing, payment terms, and invoicing schedules are agreed upon in individual purchase orders or wholesale agreements. All transactions are conducted in U.S. dollars unless otherwise specified. Apex Trade Distribution reserves the right to adjust purchasing volumes based on market conditions, inventory performance, and distribution metrics. Late payments may result in suspension of purchases or termination of the partnership.
               </p>
             </section>
 
@@ -116,14 +116,14 @@ export default function Terms() {
             <section>
               <h2 className="text-xl font-semibold mb-3">9. Disclaimer of Warranties</h2>
               <p>
-                Our website and services are provided on an "as is" and "as available" basis without warranties of any kind, either express or implied. We do not warrant that our services will be uninterrupted, error-free, or free of viruses or other harmful components. We make no guarantees regarding specific sales volumes, revenue outcomes, or marketplace performance results.
+                Our website and services are provided on an "as is" and "as available" basis without warranties of any kind, either express or implied. We do not warrant that our services will be uninterrupted, error-free, or free of viruses or other harmful components. We make no guarantees regarding specific sales volumes, revenue outcomes, or distribution performance results.
               </p>
             </section>
 
             <section>
               <h2 className="text-xl font-semibold mb-3">10. Termination</h2>
               <p>
-                Either party may terminate the wholesale partnership with written notice as specified in the individual partnership agreement. Apex Trade Distribution reserves the right to terminate access to its services immediately if a brand partner violates these Terms of Service, engages in fraudulent activity, or breaches Amazon's marketplace policies in a manner that creates risk for our business operations.
+                Either party may terminate the wholesale partnership with written notice as specified in the individual partnership agreement. Apex Trade Distribution reserves the right to terminate access to its services immediately if a brand partner violates these Terms of Service, engages in fraudulent activity, or engages in conduct that creates material legal or reputational risk for our business operations.
               </p>
             </section>
 

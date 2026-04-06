@@ -9,7 +9,7 @@ const values = [
   {
     icon: ShieldCheck,
     title: "Integrity First",
-    body: "We operate as a fully authorized distributor. Every product we sell is genuine, every listing is compliant, and every partnership is built on transparency and trust.",
+    body: "We operate as a fully authorized distributor. Every product we sell is genuine, every product representation is accurate, and every partnership is governed by a signed agreement.",
   },
   {
     icon: TrendingUp,
@@ -117,7 +117,7 @@ export default function About() {
               Send us a note and we'll follow up within 2 business days to discuss whether there's a fit.
             </p>
             <Button className="btn-primary" onClick={() => navigate("/contact")}>
-              Start Your Partnership
+              Request Partnership Review
             </Button>
           </div>
 
