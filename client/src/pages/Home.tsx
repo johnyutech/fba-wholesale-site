@@ -154,9 +154,9 @@ export default function Home() {
       <section id="brands" className="py-24 px-4 md:px-0 bg-white">
         <div className="container">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">Our Brand Partners</h2>
+            <h2 className="text-4xl font-bold mb-4">Brands We Carry</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              We work with leading brands across food & beverage, health, home goods, and specialty categories.
+              A sample of brands currently available through our wholesale network across food & beverage, health, home goods, and specialty categories.
             </p>
           </div>
 
